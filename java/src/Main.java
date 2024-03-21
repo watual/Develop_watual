@@ -53,5 +53,6 @@ public class Main {
         }
         
         sc.close();
+        System.out.println("안녕하세요");
     }
 }//test1
