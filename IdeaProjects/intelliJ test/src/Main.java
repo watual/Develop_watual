@@ -10,6 +10,8 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         //아니 뭐가 일케 뭐가 많아
 
+        System.out.printf("hello");
+
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
