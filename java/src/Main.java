@@ -23,7 +23,6 @@ public class Main {
         ans = new int[count1];
         
 
-
         for(int i=0;i<count1;i++){
             x1[i] = sc.nextDouble();
             y1[i] = sc.nextDouble();
@@ -55,4 +54,4 @@ public class Main {
         sc.close();
         System.out.println("안녕하세요");
     }
-}//test1
+}
