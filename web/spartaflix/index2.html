@@ -60,7 +60,19 @@
             width: 100%;
         }
     </style>
+
     <script>
+        $(document).ready(function () {
+            let url = "http://spartacodingclub.shop/sparta_api/weather/seoul";
+            fetch(url).then(res => res.json()).then(data => {
+                let temp = data['temp'];
+                if (temp >= 20) {
+                    $('#temp').text("더워요");
+                } else {
+                    $('#temp').text("추워요");
+                }
+            })
+        })
         /*
         let person = {'name':'bob', 'age':30, 'height':180}
         let name = person['name']
@@ -101,6 +113,7 @@
 
             $('#card').append(temp_html);
         }
+        
     </script>
 </head>
 
@@ -120,6 +133,7 @@
                     <li><a href="#" class="nav-link px-2 text-white">시리즈</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">영화</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">내가 찜한 콘텐츠</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">오늘의 날씨: <span id="temp"></span></a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
