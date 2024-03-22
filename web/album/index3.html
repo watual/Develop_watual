@@ -66,23 +66,54 @@
             margin: 5px;
         }
     </style>
-    <script>
-        $(document).ready(function () {
-            let url = "http://spartacodingclub.shop/sparta_api/seoulair";
-            fetch(url).then(res => res.json()).then(data => {
-                let mise = data['RealtimeCityAir']['row'][0]['IDEX_NM']
-                $('#msg').text(mise);
-            })
-        })
-        function openclose() {
-            $('#posting').toggle();
-            alert("123");
-        }
-        function makeCard() {
+    <script type="module">
+        // Firebase SDK 라이브러리 가져오기
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+        import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+        import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+        import { getDocs } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+
+        // Firebase 구성 정보 설정
+        const firebaseConfig = {
+            apiKey: "AIzaSyDUo3wGBYmzDE0daVh0twAmzZ2r8TzyrGE",
+            authDomain: "watual-f9224.firebaseapp.com",
+            projectId: "watual-f9224",
+            storageBucket: "watual-f9224.appspot.com",
+            messagingSenderId: "307021915043",
+            appId: "1:307021915043:web:ec35f5002d695d81a1f016",
+            measurementId: "G-248XS4LSEE"
+        };
+
+        // Firebase 인스턴스 초기화
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        $("#postingbtn").click(async function () {
             let image = $('#image').val();
             let title = $('#title').val();
             let content = $('#content').val();
             let date = $('#date').val();
+
+            let doc = {
+                'image': image,
+                'title': title,
+                'content': content,
+                'date': date
+            };
+            await addDoc(collection(db, "albums"), doc);
+            alert('저장 완료!');
+            window.location.reload();
+        })
+
+        let docs = await getDocs(collection(db, "albums"));
+        docs.forEach((doc) => {
+            let row = doc.data();
+            console.log(row);
+            
+            let image = row['image'];
+            let title = row['title'];
+            let content = row['content'];
+            let date = row['date'];
 
             let temp_html = `
             <div class="col">
@@ -100,6 +131,19 @@
             </div>`;
 
             $('#card').append(temp_html);
+        });
+
+        let url = "http://spartacodingclub.shop/sparta_api/seoulair";
+        fetch(url).then(res => res.json()).then(data => {
+            let mise = data['RealtimeCityAir']['row'][0]['IDEX_NM']
+            $('#msg').text(mise);
+        })
+
+        function openclose() {
+            $('#posting').toggle();
+            alert("123");
+        }
+        function makeCard() {
         }
     </script>
 </head>
@@ -128,64 +172,12 @@
             <label for="floatingInput">앨범 날짜</label>
         </div>
         <div class="mybtn">
-            <button type="button" class="btn btn-primary" onclick="makeCard()">기록하기</button>
+            <button id="postingbtn" type="button" class="btn btn-primary">기록하기</button>
             <button type="button" class="btn btn-outline-primary">닫기</button>
         </div>
     </div>
     <div class="mycards">
         <div id="card" class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">앨범 제목</h5>
-                        <p class="card-text">앨범 내용</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">앨범 날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">앨범 제목</h5>
-                        <p class="card-text">앨범 내용</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">앨범 날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">앨범 제목</h5>
-                        <p class="card-text">앨범 내용</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">앨범 날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">앨범 제목</h5>
-                        <p class="card-text">앨범 내용</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">앨범 날짜</small>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </body>
