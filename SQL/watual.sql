@@ -196,3 +196,51 @@ select restaurant_name,
 from food_orders
 /*==================================================*/
 --실습18
+SELECT 	addr, 
+		CASE	WHEN if(SUBSTR(addr, 1, 2)='서울', delivery_time *1.1, delivery_time) > 30 then price*0.1
+				WHEN if(SUBSTR(addr, 1, 2)='서울', delivery_time *1.1, delivery_time) > 25 then price*0.05
+				else price end '수수료'
+FROM food_orders
+order by addr
+/*==================================================*/
+--실습19
+/*
+cast : 숫자 데이터를 문자라고 인식시키거나, 문자데이터를 숫자로 치환해 인식시킨다
+ex)
+cast(if(rating='Not given', '1', rating) as decimal) : 문자를 숫자로
+concat(restaurant_name, '-', cast(order_id as char)) : 숫자를 문자로
+*/
+/*==================================================*/
+--과제
+SELECT 	order_id ,
+		restaurant_name ,
+        day_of_the_week ,
+        delivery_time ,
+        IF(
+            day_of_the_week = 'weekday',
+            /*weekday*/
+            IF(
+                delivery_time > 25 ,
+                'Late' ,
+                'On-time'
+            ),
+            /*weekend*/
+            IF(
+                delivery_time > 30 ,
+                'Late' ,
+                'On-time'
+            )
+        ) "지연여부"
+FROM food_orders
+/*==================================================*/
+--실습20
+rom 
+(
+select order_id, restaurant_name, food_preparation_time-25 over_time
+from food_orders
+) aselect order_id, restaurant_name, if(over_time>=0, over_time, 0) over_time
+f
+/*
+Subquery(서브쿼리) : 원하는 자료를 sub로 만들어 활용하는 방법
+해설 : 위의 예문에서 food_preparation_time 컬럼에서 - 25 한 값을 over_time 으로 새롭게 컬럼을 생성해 사용 
+*/

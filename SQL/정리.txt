@@ -1,0 +1,26 @@
+#기본
+SELECT, FROM, WHERE
+group by, order by
+=, <, >, <=, >=, <>
+between x1 and x2
+in (x1, x2, x3)
+like 'x1%'
+like '%x1%'
+like '%x1'
+AND, OR, NOT
+SUM, AVG, COUNT, MIN, MAX
+replace(col, x1, x2)
+substr(col, 1, 2)
+concat(x1, x2, x3, ...)
+IF(con, true, false)
+CASE WHEN x1 THEN y1
+     WHEN x2 THEN y2
+     ELSE y3 END
+cast(x1 as decimal)
+cast(x2 as char)
+#subquery
+    SELECT k1
+    FROM (
+        SELECT b1 * c1 as k1
+        FROM g1
+    )
