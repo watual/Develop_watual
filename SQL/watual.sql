@@ -70,3 +70,129 @@ SUM, AVG, COUNT, MIN, MAX 사용가능
 select x1+x2 as x : x1값 + x2값을 x라는 열에 표시, 마찬가지로 /,*,- 가능
 SELECT sum(x1) x2 : x1값들을 모두 더해 x2라는 별명을 주고 표시
 */
+/*==================================================*/
+--실습7
+select count(1) count_of_orders,
+       count(distinct customer_id) count_of_customers
+from food_orders
+/*
+SELECT  count(1) x2,
+        count(distinct x1) x2
+from y1
+해설 : 1과 *은 전체를 선택하는 언어, y1에 모든 값을 세아려서 x2에 표시, distinct는 데이터 종류의 수를 표시
+ex) x1의 데이터 수는 10개지만 종류는 7개인 경우 distinct를 사용하면 7로 표시
+*/
+/*==================================================*/
+--실습8
+select min(price) min_price,
+       max(price) max_price
+from food_orders
+/*
+그냥 최대최소
+*/
+/*==================================================*/
+--실습9
+select cuisine_type,
+       sum(price) sum_of_price
+from food_orders
+group by cuisine_type
+/*
+group by : 원하는 그룹으로 묶어서 연산하고 정렬하고 싶을때 사용
+*/
+/*==================================================*/
+--실습10
+select cuisine_type,
+       sum(price) sum_of_price
+from food_orders
+group by cuisine_type
+order by gender, sum(price) desc
+/*
+order by : 원하는 데이터들을 기준으로 정렬, 역정렬의 경우 끝에 desc 추가
+*/
+/*==================================================*/
+--실습11
+SELECT  customer_id '고객',
+        customers cus
+from    food_orders
+WHERE   cuisine_type = 'korean'
+group by customer_id
+order by customers
+/*==================================================*/
+--과제
+select 	cuisine_type ,
+		MIN(price) min_price,
+		MAX(price) max_price
+from food_orders
+group by cuisine_type 
+order by MIN(price) DESC 
+/*==================================================*/
+--실습12
+select restaurant_name "원래 상점명",
+       replace(restaurant_name, 'Blue', 'Pink') "바뀐 상점명"
+from food_orders
+where restaurant_name like '%Blue Ribbon%'
+/*
+REPLACE, SUBSTRING, CONCAT : 문자 포맷이 다를때, SQL로 가공
+replace(소속컬럼, 현재값, 바꿀값)
+*/
+/*==================================================*/
+--실습13
+select addr "원래 주소",
+       substr(addr, 1, 2) "시도"
+from food_orders
+where addr like '%서울특별시%'
+/*
+substr(소속컬럼, 시작위치, 글자수)
+ex) substr(addr, 1, 2) : addr의 데이터들을 1번째 글자부터 2개만 추출해서 표시
+*/
+/*==================================================*/
+--실습14
+select restaurant_name "원래 이름",   
+       addr "원래 주소",
+       concat('[', substring(addr, 1, 2), '] ', restaurant_name) "바뀐 이름"
+from food_orders
+where addr like '%서울%'
+/*
+concat(x1, x2, x3, ...)
+해설 : x1, x2, x3등 원하는 데이터를 한번에 표시
+*/
+/*==================================================*/
+--실습15
+select restaurant_name,
+       cuisine_type "원래 음식 타입",
+       if(cuisine_type='Korean', '한식', '기타') "음식 타입"
+from food_orders
+/*
+IF, CASE 사용법
+if(조건, 참일때 표시할 값, 거짓일때 표시할 값)
+*/
+/*==================================================*/
+--실습16
+select order_id,
+       price,
+       quantity,
+       case when quantity=1 then price
+            when quantity>=2 then price/quantity 
+            else '기타' end "음식 단가"
+from food_orders
+/*
+원하는 값일때 원하는 값으로 표시
+*/
+/*==================================================*/
+--실습17
+select restaurant_name,
+       price/quantity "단가",
+       cuisine_type,
+       order_id,
+       case when (price/quantity <5000) and cuisine_type='Korean' then '한식1'
+            when (price/quantity between 5000 and 15000) and cuisine_type='Korean' then '한식2'
+            when (price/quantity > 15000) and cuisine_type='Korean' then '한식3'
+            when (price/quantity <5000) and cuisine_type in ('Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '아시아식1'
+            when (price/quantity between 5000 and 15000) and cuisine_type in ('Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '아시아식2'
+            when (price/quantity > 15000) and cuisine_type in ('Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '아시아식3'
+            when (price/quantity <5000) and cuisine_type not in ('Korean', 'Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '기타1'
+            when (price/quantity between 5000 and 15000) and cuisine_type not in ('Korean', 'Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '기타2'
+            when (price/quantity > 15000) and cuisine_type not in ('Korean', 'Japanese', 'Chinese', 'Thai', 'Vietnamese', 'Indian') then '기타3' end "식당 그룹"
+from food_orders
+/*==================================================*/
+--실습18
