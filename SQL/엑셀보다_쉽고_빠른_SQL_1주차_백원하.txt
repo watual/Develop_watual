@@ -1,0 +1,4 @@
+SELECT 	restaurant_name as "식당명", customer_id as "고객번호"
+from  food_orders fo 
+WHERE cuisine_type = 'korean'
+AND food_preparation_time BETWEEN 20 and 30

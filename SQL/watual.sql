@@ -41,3 +41,32 @@ like 'x1%' : x1 문자로 시작하는 값 호출
 like '%x1%' : x1 문자가 포함된 값 호출
 like '%x1' : x1 문자로 끝나는 값 호출
 */
+/*==================================================*/
+--실습5
+SELECT *
+from customers
+WHERE age >= 21
+and gender = 'male'
+/*
+논리연산자
+AND : age>20 and gender='female'
+OR  : age>20 or gender='female'
+NOT : not gender='female'
+*/
+/*==================================================*/
+--과제
+SELECT 	restaurant_name as "식당명", customer_id as "고객번호"
+from  food_orders fo 
+WHERE cuisine_type = 'korean'
+AND food_preparation_time BETWEEN 20 and 30
+/*==================================================*/
+--실습6
+select food_preparation_time,
+       delivery_time,
+       food_preparation_time + delivery_time as total_time
+from food_orders
+/*
+SUM, AVG, COUNT, MIN, MAX 사용가능
+select x1+x2 as x : x1값 + x2값을 x라는 열에 표시, 마찬가지로 /,*,- 가능
+SELECT sum(x1) x2 : x1값들을 모두 더해 x2라는 별명을 주고 표시
+*/
