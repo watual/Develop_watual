@@ -244,3 +244,65 @@ f
 Subquery(서브쿼리) : 원하는 자료를 sub로 만들어 활용하는 방법
 해설 : 위의 예문에서 food_preparation_time 컬럼에서 - 25 한 값을 over_time 으로 새롭게 컬럼을 생성해 사용 
 */
+/*==================================================*/
+--실습21
+select restaurant_name,
+       price_per_plate*ratio_of_add "수수료"
+from 
+(
+	select restaurant_name,
+	       case when price_per_plate<5000 then 0.005
+	            when price_per_plate between 5000 and 19999 then 0.01
+	            when price_per_plate between 20000 and 29999 then 0.02
+	            else 0.03 end ratio_of_add,
+	       price_per_plate
+	from 
+		(
+		select restaurant_name, avg(price/quantity) price_per_plate
+		from food_orders
+		group by 1
+		) a
+) b
+/*==================================================*/
+--실습22
+select 	cuisine_type, 
+		total_quantity,
+		count_res,
+       case when count_res>=5 and total_quantity>=30 then 0.005
+            when count_res>=5 and total_quantity<30 then 0.008
+            when count_res<5 and total_quantity>=30 then 0.01
+            when count_res<5 and total_quantity<30 then 0.02 end ratio_of_add
+from
+(
+select cuisine_type,
+       sum(quantity) total_quantity,
+       count(distinct restaurant_name) count_res
+from food_orders
+group by cuisine_type
+) a
+/*
+group by 1 : SELECT의 첫 컬럼으로 묶는 것, 오라클에선 안되는 경우가 있음
+위의 예문에서 group by cuisine_type 과 같음
+*/
+/*==================================================*/
+--실습23
+SELECT *
+FROM food_orders inner join payments on food_orders.order_id=payments.order_id 
+/*
+Join 사용법
+Join에는 Left Join 과 Inner Join 2가지가 있다
+Left Join은 비교 컬럼에서 일치하는 값이 없어도 기존 컬럼의 데이터를 공백상태로 유지하는 것이고
+Inner Join은 비교 컬럼이 있는 값들만 병합해 표시한다
+*/
+/*==================================================*/
+--실습24
+SELECT  f.order_id,
+        f.customer_id,
+        c.name,
+        c.age
+FROM food_orders f left join customers c on f.customer_id=c.customer_id
+/*
+join한 상태에서 각 컬럼의 데이터를 골라 사용하고 싶으면 이름을 정한뒤 지정한다
+*/
+/*==================================================*/
+--실습25

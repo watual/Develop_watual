@@ -8,7 +8,7 @@ like 'x1%'
 like '%x1%'
 like '%x1'
 AND, OR, NOT
-SUM, AVG, COUNT, MIN, MAX
+SUM, AVG, COUNT(distinct), MIN, MAX
 replace(col, x1, x2)
 substr(col, 1, 2)
 concat(x1, x2, x3, ...)
@@ -18,9 +18,17 @@ CASE WHEN x1 THEN y1
      ELSE y3 END
 cast(x1 as decimal)
 cast(x2 as char)
-#subquery
+#Subquery
     SELECT k1
     FROM (
         SELECT b1 * c1 as k1
         FROM g1
     )
+#Join
+    Left Join
+        FROM a1 left join b1 on a1.x1_id=b1.x1_id
+
+    Inner Join
+        FROM a1 inner join b1 on a1.x1_id=b1.x1_id
+
+    
