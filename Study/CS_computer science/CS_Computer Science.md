@@ -22,4 +22,8 @@ Swapping(주-보조 교환), swap out, swap in, swap device, backing store
 Metadata, PCB(Process Control Block)
 context switching, dispatcher
 프로세스의 메모리 구조, code(text), data, heap, stack, 
-
+BSS(Blcok Stated Symbol), LIFO(Last In First Out), GC(Garbage Collector), PCB, process management
+kernel, 인터프리터
+쓰레드(thread), 교착상태, thread pool, Fork Join Thread Pool
+IPC, LPC, 공유 메모리
+동시성(Concurrency), 병렬성(Parallelism)
