@@ -325,7 +325,6 @@ GROUP BY f.restaurant_name
 ) a
 ORDER BY restaurant_name
 /*==================================================*/
---실습25
 /*
 #Tip
 #GROUP
@@ -360,5 +359,55 @@ ex) 나이가 -4세, 결제일자가 40년대
 #Query
 1. SQL에서 Query문을 작성 후 Enter로 띄워서 작성하면 개별적인 쿼리문이 된다
 2. 띄워서 작성된 개별 쿼리문 중 실행시키고 싶은 쿼리문만 커서를 위치시켜 실행시킬 수 있다
-
 */
+/*==================================================*/
+--실습25 : male일때만 나타나는 데이터, female일때만 나타나는 데이터를 작성해 피벗으로 제작
+select age,
+       max(if(gender='male', order_count, 0)) male,
+       max(if(gender='female', order_count, 0)) female
+from 
+(
+select b.gender,
+       case when age between 10 and 19 then 10
+            when age between 20 and 29 then 20
+            when age between 30 and 39 then 30
+            when age between 40 and 49 then 40
+            when age between 50 and 59 then 50 end age,
+       count(1) order_count
+from food_orders a inner join customers b on a.customer_id=b.customer_id
+where b.age between 10 and 59
+group by 1, 2
+) t
+group by 1
+order by age
+/*==================================================*/
+--실습26
+/*
+Window Function - RANK, SUM
+*/
+select cuisine_type,
+       restaurant_name,
+       order_count,
+       rn "순위"
+from
+(
+select cuisine_type,
+       restaurant_name,
+       rank() over (partition by cuisine_type order by order_count desc) rn,
+       order_count
+from
+(
+select cuisine_type, restaurant_name, count(1) order_count
+from food_orders
+group by 1, 2
+) a
+) b
+where rn<=3
+order by 1, 4
+/*
+rank() over (partition by 분류 order by 랭킹기준 desc) 
+sum() over (partition by 분류)
+sum() over (partition by 분류 order by 순서) : 누적합
+*/
+/*==================================================*/
+--실습27
