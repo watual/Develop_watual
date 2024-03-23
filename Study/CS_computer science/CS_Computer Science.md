@@ -1,0 +1,14 @@
+
+CPU내부구조, 주기억장치, 보조기억장치
+CU, CACHE Memory(L1), Register, MAR, PC, IR, MBR, AC
+DRAM, L2, L3 CACHE Memory, SRAM, HDD, SSD, CPU
+Intel 코어 i5-13600K 랩터레이크  5.10GHz 14코어
+하버드 구조, 폰노이만 구조
+CU - Scheduling
+Preemptive, Non-Preemptive Scheduling
+Priority Scheduling, Round Robin, Multilevel-Queue
+FCFS(First Come, First Serve), Convoy Effect, SJF(Shorted Job First), HRN(Highest Response-ratio Next)
+시간 지역성, 공간 지역성, 캐시히트, 캐시미스, 캐시매핑
+직접매핑, 연관매핑, 집한연관매핑
+메모리 할당, 연속할당, 불연속할당
+고정분할방식, 가변분할방식

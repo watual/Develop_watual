@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9cccfaa8b9edf0f5",
+        "id": "c6e460784ca3fc35",
         "type": "tabs",
         "children": [
           {
-            "id": "012fc731b8d2d48f",
+            "id": "c982ba9f7da14120",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5905050106357d12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "what the test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "what the test.md",
+                "file": "Study/CS_computer science/CS_Computer Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "what the test.md",
+                "file": "Study/CS_computer science/CS_Computer Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "what the test.md"
+                "file": "Study/CS_computer science/CS_Computer Science.md"
               }
             }
           }
@@ -159,11 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5905050106357d12",
+  "active": "c982ba9f7da14120",
   "lastOpenFiles": [
     "Study/CS_computer science/CS_Computer Science.md",
-    "what the test.md",
     "Study/CS_computer science/CPU.md",
+    "what the test.md",
     "Study/Obsidian/옵시디언 사용법.md",
     "Study/CS_computer science",
     "Study/웹 사이트 코드 배포.md",
