@@ -410,4 +410,34 @@ sum() over (partition by 분류)
 sum() over (partition by 분류 order by 순서) : 누적합
 */
 /*==================================================*/
---실습27
+--과제
+/*
+음식 타입별, 연령별 주문건수 pivot view 만들기 (연령은 10~59세 사이)
+SQL 기본구조 작성하기
+Pivot view 를 만들기 위해 필요한 데이터 가공하기
+Pivot view 문법에 맞추어 수정하기
+
+음식타입에 10대, 20대, 30대 몇명인지 카운팅해서 병렬
+*/
+SELECT 	cuisine_type ,
+		MAX(IF(age_sym='10대',cui_cnt,0)) 10대 ,
+		MAX(IF(age_sym='20대',cui_cnt,0)) 20대 ,
+		MAX(IF(age_sym='30대',cui_cnt,0)) 30대 ,
+		MAX(IF(age_sym='40대',cui_cnt,0)) 40대 ,
+		MAX(IF(age_sym='50대',cui_cnt,0)) 50대
+FROM
+(
+SELECT 	cuisine_type ,
+		CASE 	WHEN age >= 50 THEN '50대'
+			 	WHEN age >= 40 THEN '40대'
+			 	WHEN age >= 30 THEN '30대'
+			 	WHEN age >= 20 THEN '20대'
+			 	WHEN age >= 10 THEN '10대'
+			 	ELSE 'Err' END age_sym,
+		COUNT(cuisine_type) cui_cnt
+FROM food_orders f INNER JOIN customers c ON f.customer_id = c.customer_id
+WHERE age BETWEEN 10 and 59
+GROUP BY cuisine_type, age_sym
+) a
+GROUP BY cuisine_type
+

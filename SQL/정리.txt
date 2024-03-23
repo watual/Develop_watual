@@ -40,3 +40,4 @@ sum() over (partition by x1 order by x2)
 date_format(date(x1), '%Y')
 date_format(date(x1), '%m')
 %Y, y, M, m, D, d, W, w
+
