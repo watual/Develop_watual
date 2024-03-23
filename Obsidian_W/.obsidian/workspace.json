@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "7ee92340c23fa33e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cccfaa8b9edf0f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a1f4c67f4b00c15",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e8b1a06d26e89d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Develop/웹 사이트 코드 배포.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0642ba0a49556cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Develop/CPU.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97200a421879dcb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e68342386d32191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f9722707e7bbe36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "070fbd711145e368",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "선점되었을때",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dcd1b6199ebb249",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82bdfcca8d7bc356",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7fc2fbd907c8ada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f820b247b396dd9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Develop/CPU.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92be4cf288b2886d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Develop/CPU.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed9938e521b0704",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cc637b40604c2698",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Develop/CPU.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "070fbd711145e368",
+  "lastOpenFiles": [
+    "Develop/웹 사이트 코드 배포.md",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas",
+    "Develop/CPU.md",
+    "Attached file/Pasted image 20240322161911.png",
+    "Attached file/Pasted image 20240322161902.png",
+    "Develop",
+    "Obsidian/옵시디언 사용법.md",
+    "Obsidian/마크다운 사용법.md",
+    "Attached file/Pasted image 20240322122418.png",
+    "Welcome/create a link.md",
+    "Welcome",
+    "Obsidian",
+    "Attached file",
+    "Welcome/Welcome.md",
+    "new/자바교육/frontend/tags.html",
+    "new/자바교육/frontend/login.html",
+    "new/자바교육/frontend",
+    "new/자바교육/album/index.html",
+    "new/자바교육/album",
+    "new/자바교육/123.txt"
+  ]
+}
