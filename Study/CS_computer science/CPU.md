@@ -59,8 +59,12 @@ CPU, I/O Burst Cycle
 - 비선점 스케쥴링(Non-Preemptive Scheduling)
 	- FCFS(First Come, First Serve) : Convoy Effect(호위효과) 발생(긴 처리시간의 프로세스가 선점되었을때 나머지 프로세스들이 기다려 평균 대기시간이 길어지는 것)
 	- SJF(Shorted Job First) : 실행시간이 짧은 순서로 실행
-	- HRN(Hightest Response-ratio Next) : (실행시간+대기시간)/실행시간 순서로 실행
+	- HRN(Highest Response-ratio Next) : (실행시간+대기시간)/실행시간 순서로 실행
 왼쪽 상단 메뉴 > 주먹 바꾸기 or 찌르기 > 원하는 아이콘 선택 > x로 공격!
 ## 레지스터와 주기억장치
 - 레지스터 : 메모리와 CPU 사이의 속도 차이를 해결하기 위한 캐시 (CPU와 SRAM)
 - 주기억장치 : 캐시 메모리와 보조기억장치 사이의 속도 차이를 해결하기 위한 캐시 (레지스터와 DRAM)
+
+## 지역성
+- 시간 지역성
+- 공간 지역성
