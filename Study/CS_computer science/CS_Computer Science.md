@@ -14,3 +14,4 @@ FCFS(First Come, First Serve), Convoy Effect, SJF(Shorted Job First), HRN(Highes
 고정분할방식, 가변분할방식, 페이징, 세그멘테이션, 페이지드세그멘테이션
 페이지교체 알고리즘, 오프라인 알고리즘, 시간기반 알고리즘, 빈도기반 알고리즘
 FIFO(First In First Out), LRU(Least Recently Used), NUR(Not Used Recently), LFU(Leaste Frequently Used)
+Waiting Queue, Job Queue, Ready Queue, Device Queue
