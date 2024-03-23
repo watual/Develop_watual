@@ -22,3 +22,4 @@ git commit -m "`date +\"%Y-%m-%d %H:%M:%S\"`"
 `date +\"%Y-%m-%d\"`
 
 git commit -m "`date +'%Y-%m-%d %H:%M:%S'`"
+터미널로 넣으니까 되는데 vs msg창에 넣으니 안되네...
