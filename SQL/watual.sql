@@ -325,4 +325,9 @@ GROUP BY f.restaurant_name
 ) a
 ORDER BY restaurant_name
 /*==================================================*/
---과제
+--실습25
+/*
+#값 대체하기
+1. IF(x1 != null, x1, 대체값)
+2. coalesce(x1, 대체값) : x1이 null 일때 대체값으로 대체
+*/

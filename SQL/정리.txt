@@ -30,4 +30,4 @@ cast(x2 as char)
 
     Inner Join
         FROM a1 inner join b1 on a1.x1_id=b1.x1_id
-
+coalesce(x1, x2)
