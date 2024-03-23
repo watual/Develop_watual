@@ -17,3 +17,4 @@
 --date=format:%c라는데...
 아닌데..?
 뭔데 대체
+git commit -m "`date +\"%Y-%m-%d\"`"
