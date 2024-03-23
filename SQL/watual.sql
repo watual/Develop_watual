@@ -440,4 +440,3 @@ WHERE age BETWEEN 10 and 59
 GROUP BY cuisine_type, age_sym
 ) a
 GROUP BY cuisine_type
-
