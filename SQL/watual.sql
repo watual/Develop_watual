@@ -305,4 +305,24 @@ FROM food_orders f left join customers c on f.customer_id=c.customer_id
 join한 상태에서 각 컬럼의 데이터를 골라 사용하고 싶으면 이름을 정한뒤 지정한다
 */
 /*==================================================*/
---실습25
+--과제 : 식당별로 음식 주문 평균과 연령 평균을 계산하고 그룹분류
+SELECT  restaurant_name ,
+		CASE 	WHEN avg_price>30000 THEN 'price_group4'
+				WHEN avg_price>=10000 THEN 'price_group3'
+				WHEN avg_price>=5000 THEN 'price_group2'
+				ELSE 'price_group1' END price_group ,
+		CASE 	WHEN avg_age>=50 THEN 'age_group4'
+				WHEN avg_age>=40 THEN 'age_group3'
+				WHEN avg_age>=30 THEN 'age_group2'
+				ELSE 'age_group1' END age_group  
+FROM
+(
+SELECT  f.restaurant_name AS restaurant_name ,
+        avg(f.price) AS avg_price ,
+        avg(c.age) AS avg_age
+FROM    food_orders f INNER JOIN customers c ON f.customer_id=c.customer_id
+GROUP BY f.restaurant_name
+) a
+ORDER BY restaurant_name
+/*==================================================*/
+--과제
