@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/CS_computer science/CS_Computer Science.md",
+                "file": "Study/Obsidian/마크다운 사용법.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/CS_computer science/CS_Computer Science.md",
+                "file": "Study/Obsidian/마크다운 사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/CS_computer science/CS_Computer Science.md",
+                "file": "Study/Obsidian/마크다운 사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/CS_computer science/CS_Computer Science.md"
+                "file": "Study/Obsidian/마크다운 사용법.md"
               }
             }
           }
@@ -150,10 +149,12 @@
   },
   "active": "c982ba9f7da14120",
   "lastOpenFiles": [
+    "Study/Obsidian/무제 파일.md",
+    "Study/Obsidian/마크다운 사용법.md",
+    "Study/CS_computer science/CS_Computer Science.md",
     "Study/Time_Record.txt",
     "Attached file/image.png",
     "Study/CS_computer science/CPU.md",
-    "Study/CS_computer science/CS_Computer Science.md",
     "Study/CS_computer science/견뎌야 하는 개소리.md",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a.md",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled.png",
@@ -191,11 +192,9 @@
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/6강 DBMS(데이터베이스 관리시스템)의 기능과 종 1a9780fe3124462c9c20d3e8a9c45423.md",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/6강 DBMS(데이터베이스 관리시스템)의 기능과 종 1a9780fe3124462c9c20d3e8a9c45423",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/5강 DB(데이터베이스) 구조와 유형 9c9430dda2524179965bb3e911bc4581.md",
-    "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/5강 DB(데이터베이스) 구조와 유형 9c9430dda2524179965bb3e911bc4581",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/4강 쓰레드와 쓰레드 풀 a5495042bee34a56a4a0f9bc0fa19549.md",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/2강 CPU 와 메모리 심화 bbe0693c364e464391f4c2118a315e7c.md",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/3강 프로세스 생명주기와 프로세스 메모리 02ba1477de6843bbad841eafde368bbf.md",
-    "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
