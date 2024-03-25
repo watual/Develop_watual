@@ -11,6 +11,14 @@
             "id": "36c0e8c030e021bf",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b0af5e02793dc70e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Study/CS_computer science/Computer Science_study test collection.md",
@@ -19,7 +27,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,26 +156,26 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "36c0e8c030e021bf",
+  "active": "b0af5e02793dc70e",
   "lastOpenFiles": [
-    "Study/CS_computer science/CU (Control Unit).md",
-    "Study/CS_computer science/DB (Database).md",
+    "Study/CS_computer science/CPU.md",
     "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/DB (Database).md",
+    "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
+    "Study/CS_computer science/CU (Control Unit).md",
     "Study/CS_computer science/explanation.md",
     "Study/CS_computer science/File System.md",
+    "Study/CS_computer science/SSD.md",
+    "Study/CS_computer science/Register.md",
+    "web/spartaflix/asdfasdf.md",
     "Commit MSG.md",
     "Attached file/DBMS Sort.PNG",
     "Study/Obsidian/마크다운 사용법.md",
-    "web/spartaflix/asdfasdf.md",
     "Attached file/Pasted image 20240322161902.png",
-    "Study/CS_computer science/CPU.md",
-    "Study/CS_computer science/Register.md",
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
     "Study/Obsidian/옵시디언 사용법.md",
     "Study/웹 사이트 코드 배포.md",
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_2주차_백원하.PNG",
-    "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
-    "Study/CS_computer science/SSD.md",
     "Attached file/Pasted image 20240325151819.png",
     "대화.txt",
     "대화.tvt",

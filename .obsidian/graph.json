@@ -6,39 +6,17 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:web/album \"index\"",
-      "color": {
-        "a": 1,
-        "rgb": 12922928
-      }
-    },
-    {
-      "query": "path:web/spartaflix/",
-      "color": {
-        "a": 1,
-        "rgb": 11010278
-      }
-    },
-    {
-      "query": "path:Study/Obsidian  ",
-      "color": {
-        "a": 1,
-        "rgb": 131419
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.1,
-  "nodeSizeMultiplier": 0.92006237006237,
-  "lineSizeMultiplier": 1.89802494802495,
+  "textFadeMultiplier": -2,
+  "nodeSizeMultiplier": 2.10176715176715,
+  "lineSizeMultiplier": 3.95582120582121,
   "collapse-forces": false,
-  "centerStrength": 0.487525987525988,
-  "repelStrength": 10.1663201663202,
-  "linkStrength": 0.142411642411642,
-  "linkDistance": 122,
-  "scale": 0.5087618855792624,
+  "centerStrength": 0.383575883575884,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 165,
+  "scale": 0.25883865621816626,
   "close": false
 }

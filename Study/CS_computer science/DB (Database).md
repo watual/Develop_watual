@@ -10,7 +10,7 @@
 #### 객체 지향 DBMS
 - 객체 지향 프로그래밍 패러다임을 기반으로 하는 데이터 모델
 - 장점 : 데이터와 프로그램을 그룹화하고, 복잡한 객체들을 이해하기 쉬우며, 유지와 변경이 용이
-- 예 : ONTOS, OpenODB, GemStone, ObjectStore, O2 등
+- 예 : ONTOS, #OpenODB, GemStone, ObjectStore, O2 등
 
 #### 객체 관계 DBMS
 - DBMS에 객체 지향 개념을 통합한 객체 관계 데이터 모델이 제안 됨
