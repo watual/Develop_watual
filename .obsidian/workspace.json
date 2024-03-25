@@ -11,9 +11,11 @@
             "id": "36c0e8c030e021bf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG"
+                "file": "Study/CS_computer science/DB (Database).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
+                "file": "Study/CS_computer science/DB (Database).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
+                "file": "Study/CS_computer science/DB (Database).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG"
+                "file": "Study/CS_computer science/DB (Database).md"
               }
             }
           }
@@ -147,18 +149,23 @@
   },
   "active": "36c0e8c030e021bf",
   "lastOpenFiles": [
+    "Attached file/DBMS Sort.PNG",
+    "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/DB (Database).md",
+    "Study/Obsidian/마크다운 사용법.md",
+    "web/spartaflix/asdfasdf.md",
+    "Attached file/Pasted image 20240322161902.png",
+    "Study/CS_computer science/CPU.md",
+    "Study/CS_computer science/Register.md",
+    "Study/CS_computer science/CU (Control Unit).md",
+    "Study/CS_computer science/explanation.md",
+    "Study/CS_computer science/File System.md",
+    "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
     "Study/Obsidian/옵시디언 사용법.md",
     "Study/웹 사이트 코드 배포.md",
-    "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_2주차_백원하.PNG",
-    "Study/CS_computer science/explanation.md",
-    "Study/Obsidian/마크다운 사용법.md",
-    "Study/CS_computer science/CU (Control Unit).md",
-    "Study/CS_computer science/CPU.md",
     "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
-    "Study/CS_computer science/CS_Computer Science.md",
     "Study/CS_computer science/SSD.md",
-    "Study/CS_computer science/Register.md",
     "Attached file/Pasted image 20240325151819.png",
     "대화.txt",
     "대화.tvt",
@@ -184,14 +191,10 @@
     "HTML import/Attachments/자료구조와-알고리즘.png",
     "HTML import/Attachments/스크린샷, 2020-12-15 14-57-07.png",
     "HTML import/Attachments/스크린샷 2021-09-02 오전 1.05.30.png",
-    "HTML import/Attachments/스크린샷 2021-03-12 오후 12.37.58.png",
     "HTML import/9강 OSI 7계층 dea2fe01bb05443ea0de573106a02883.md",
     "HTML import/8강 자료구조의 동작과 활용 70b3f3a544aa432c943b214f0017fd65.md",
     "HTML import/7강 자료의 저장과 표현 65302ae62c8b41c6a46306615a691675.md",
     "HTML import/6강 DBMS(데이터베이스 관리시스템)의 기능과 종 1a9780fe3124462c9c20d3e8a9c45423.md",
-    "HTML import/5강 DB(데이터베이스) 구조와 유형 9c9430dda2524179965bb3e911bc4581.md",
-    "HTML import/4강 쓰레드와 쓰레드 풀 a5495042bee34a56a4a0f9bc0fa19549.md",
-    "HTML import/2강 CPU 와 메모리 심화 bbe0693c364e464391f4c2118a315e7c.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
