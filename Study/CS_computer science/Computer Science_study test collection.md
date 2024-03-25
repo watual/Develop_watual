@@ -31,7 +31,13 @@ IPC , LPC , 공유 메모리
 database schema , metadata
 DBS(Database System) , DBMS(Database Management System) , DB(Database) , System Catalog
 계층 DBMS , 네트워크 DBMS , [[DB (Database)|관계 DBMS]] , 객체 지향 DBMS , 객체 관계 DBMS
-DDL(Data Definition Language) , DML(Data Manipulation Language) , DCL(Data Control Language) , procedural language , non-procedural language
+DDL(Data Definition Language) , DML(Data Manipulation Language) , DCL(Data Control Language) , TCL(Transaction Control Language) , procedural language , non-procedural language
 기작성 트랜잭션(canned transaction) , DBA(Database Administrator)
 DBMS-relation(table), record, tuple(row), attribute(column), domain , 차수(degree) , cardinality
-SQL , NoSQL , 
+SQL , NoSQL
+원자성(Atomicity) , 일관성(Consistency) , 독립성(Isolation) , 지속성(Durability)
+Oracle , MySQL , PostgreSQL , MariaDB , SQLite
+MongoDB , Redis , DynamoDB , HBase , Neo4j
+bit, byte, ASCII , Unicode , UTF-8 , bitmap , vector , PCM(Pulse Code Modulation) , WAV(Waveform Audio File Format) , AIFF(Audio Interchange File Format) , AVI(Audio Video Interleave) , MP4(MPEG-4 Part 14) , MKV(Matroska)
+선형/비선형 자료구조
+Array , LinkedList , ArrayList , 
