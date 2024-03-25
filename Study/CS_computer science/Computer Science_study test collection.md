@@ -31,3 +31,5 @@ IPC , LPC , 공유 메모리
 database schema , metadata
 DBS(Database System) , DBMS(Database Management System) , DB(Database) , System Catalog
 계층 DBMS 구조 , 네트워크 DBMS 구조 , [[DB (Database)|관계 DBMS]] , 객체 지향 DBMS , 객체 관계 DBMS
+DDL(Data Definition Language) , DML(Data Manipulation Language) , DCL(Data Control Language) , procedural language , non-procedural language
+기작성 트랜잭션(canned transaction)
