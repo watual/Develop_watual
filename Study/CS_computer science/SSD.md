@@ -1,3 +1,4 @@
+
 # Solid
 **솔리드 스테이트 드라이브**(**SSD**, Solid-state drive)는 기계적 구동부위가 없는 [반도체](https://namu.wiki/w/%EB%B0%98%EB%8F%84%EC%B2%B4 "반도체")(solid-state, [진공](https://namu.wiki/w/%EC%A7%84%EA%B3%B5%EA%B4%80 "진공관")을 대체한 [고체 소자](https://namu.wiki/w/%ED%8A%B8%EB%9E%9C%EC%A7%80%EC%8A%A4%ED%84%B0 "트랜지스터"))를 사용하는 드라이브이다. NAND [플래시 메모리](https://namu.wiki/w/%ED%94%8C%EB%9E%98%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC "플래시 메모리")와 고성능 컨트롤러를 탑재하여 [C 드라이브](https://namu.wiki/w/C%20%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C "C 드라이브") 및 [HDD](https://namu.wiki/w/HDD "HDD")의 지위를 대체하고 있는 [보조 기억 장치](https://namu.wiki/w/%EA%B8%B0%EC%96%B5%EC%9E%A5%EC%B9%98 "기억장치")이다. [Microsoft Windows](https://namu.wiki/w/Microsoft%20Windows "Microsoft Windows")에서는 **반도체 드라이브**라는 명칭을 사용한다.
 

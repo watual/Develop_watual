@@ -1,4 +1,5 @@
-##  Arithmetic Logic Unt / 산술 논리 연산장치
+
+##  Arithmetic Logic Unit / 산술 논리 연산장치
 
 [[CPU]]의 핵심 부분 중 하나로서 산술 및 논리 연산을 수행하는 장치
 - 주요 역할 : 산술 연산, 논리 연산
