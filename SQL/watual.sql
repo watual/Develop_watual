@@ -220,7 +220,7 @@ SELECT 	order_id ,
             day_of_the_week = 'weekday',
             /*weekday*/
             IF(
-                delivery_time > 25 ,
+                delivery_time >= 25 ,
                 'Late' ,
                 'On-time'
             ),

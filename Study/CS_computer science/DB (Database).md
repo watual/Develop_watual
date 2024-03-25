@@ -1,7 +1,9 @@
 
 # DB (Database) / 데이터베이스
 
-#### 관계 DBMS의 종류
+
+### DBMS의 종류
+#### 관계형 DBMS
 - 사용자는 자신이 원하는 것(what)만 명시하고, 데이터가 어디있는지, 어떻게 접근해야 하는지는 DBMS가 결정
 - 예 : MS SQL Server, Oracle, Sybase, DB2, MySQL
 
