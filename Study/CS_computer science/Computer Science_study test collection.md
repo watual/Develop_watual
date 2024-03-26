@@ -40,7 +40,13 @@ Oracle , MySQL , PostgreSQL , MariaDB , SQLite
 MongoDB , Redis , DynamoDB , HBase , Neo4j
 bit, byte, ASCII , Unicode , UTF-8 , bitmap , vector , PCM(Pulse Code Modulation) , WAV(Waveform Audio File Format) , AIFF(Audio Interchange File Format) , AVI(Audio Video Interleave) , MP4(MPEG-4 Part 14) , MKV(Matroska)
 선형/비선형 자료구조
-Array , LinkedList , ArrayList , 
+Array , LinkedList , ArrayList(Vector) , Queue , Stack , Deque(Double Ended Queue) , Hash , Set
+enqueue(), add(), dequeue(), poll(), push(), pop(), peek(), isEmpty() , collision 현상 , 
 
+TCP/IP , [[OSI 7]]  , 계층 , 물리 계층(Physical Layer) , 데이터링크 계층(Data Link) , 네트워크 계층(Network) , 전송 계층(Transport) , 세션 계층(Session) , 표현 계층(Presentation) , 응용 계층(Application)
+DNS(도메인 관리), DHCP(IP할당), NTP(시간 관리)
+
+
+CRUD
 공간 복잡도, 시간 복잡도
-Big-O, Big-Ω, Big-θ
+Big-O, Big-Ω, Big-θ, O(1), O(log n), O(n), O(n^2), O(2^n)

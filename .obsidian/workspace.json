@@ -26,9 +26,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3cd4bdaa5b2cd67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/CS_computer science/OSI 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20bf8816efd8b3fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,21 +180,23 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b0af5e02793dc70e",
+  "active": "20bf8816efd8b3fe",
   "lastOpenFiles": [
-    "Study/CS_computer science/CPU.md",
-    "Study/CS_computer science/Computer Science_study test collection.md",
-    "Study/CS_computer science/DB (Database).md",
     "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
-    "Study/CS_computer science/CU (Control Unit).md",
     "Study/CS_computer science/explanation.md",
+    "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/CPU.md",
+    "Study/CS_computer science/IP주소.md",
+    "Study/CS_computer science/OSI 7.md",
+    "Study/Obsidian/마크다운 사용법.md",
+    "Study/CS_computer science/DB (Database).md",
+    "Study/CS_computer science/CU (Control Unit).md",
     "Study/CS_computer science/File System.md",
     "Study/CS_computer science/SSD.md",
     "Study/CS_computer science/Register.md",
     "web/spartaflix/asdfasdf.md",
     "Commit MSG.md",
     "Attached file/DBMS Sort.PNG",
-    "Study/Obsidian/마크다운 사용법.md",
     "Attached file/Pasted image 20240322161902.png",
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_3주차_백원하.PNG",
     "Study/Obsidian/옵시디언 사용법.md",
@@ -202,8 +228,6 @@
     "HTML import/Attachments/스크린샷, 2020-12-15 14-57-07.png",
     "HTML import/9강 OSI 7계층 dea2fe01bb05443ea0de573106a02883.md",
     "HTML import/8강 자료구조의 동작과 활용 70b3f3a544aa432c943b214f0017fd65.md",
-    "HTML import/7강 자료의 저장과 표현 65302ae62c8b41c6a46306615a691675.md",
-    "HTML import/6강 DBMS(데이터베이스 관리시스템)의 기능과 종 1a9780fe3124462c9c20d3e8a9c45423.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
