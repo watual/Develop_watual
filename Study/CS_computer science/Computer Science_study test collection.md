@@ -41,3 +41,6 @@ MongoDB , Redis , DynamoDB , HBase , Neo4j
 bit, byte, ASCII , Unicode , UTF-8 , bitmap , vector , PCM(Pulse Code Modulation) , WAV(Waveform Audio File Format) , AIFF(Audio Interchange File Format) , AVI(Audio Video Interleave) , MP4(MPEG-4 Part 14) , MKV(Matroska)
 선형/비선형 자료구조
 Array , LinkedList , ArrayList , 
+
+공간 복잡도, 시간 복잡도
+Big-O, Big-Ω, Big-θ
