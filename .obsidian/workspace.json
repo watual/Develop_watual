@@ -31,9 +31,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c8fbf5f14d6c7a96",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "39918f9841371227",
@@ -195,14 +207,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "20bf8816efd8b3fe",
+  "active": "c8fbf5f14d6c7a96",
   "lastOpenFiles": [
+    "질문.md",
+    "Study/CS_computer science/Computer Science_study test collection.md",
     "Study/CS_computer science/CPU.md",
     "Study/CS_computer science/File System.md",
     "Study/CS_computer science/OSI 7.md",
     "Study/CS_computer science/SSD.md",
     "Study/CS_computer science/TCP IP.md",
-    "Study/CS_computer science/Computer Science_study test collection.md",
     "Study/CS_computer science/CU (Control Unit).md",
     "Study/CS_computer science/explanation.md",
     "Study/CS_computer science/IP주소.md",
@@ -240,7 +253,6 @@
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled.png",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled 1.png",
     "HTML import/3강 프로세스 생명주기와 프로세스 메모리 02ba1477de6843bbad841eafde368bbf.md",
-    "HTML import/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968.md",
     "HTML import/Attachments/자료구조와-알고리즘.png",
     "HTML import/Attachments/스크린샷, 2020-12-15 14-57-07.png",
     "무제 파일 2.canvas",

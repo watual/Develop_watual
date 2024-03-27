@@ -48,7 +48,8 @@ DNS(도메인 관리), DHCP(IP할당), NTP(시간 관리)
 
 LAN, WAN, Client, Server, IP, Port, TCP handshake(3-way handshake, 4-way handshake), SYN, ACK
 TCP, UDP(User Datagram Protocol)
-
+HTTP, WebSocket, Idempotent Methos, SSL(Secure Sockets Layer), TLS(Transport Layer Security), SSL handshake
+빅 오 표기법
 CRUD
 공간 복잡도, 시간 복잡도
 Big-O, Big-Ω, Big-θ, O(1), O(log n), O(n), O(n^2), O(2^n)
