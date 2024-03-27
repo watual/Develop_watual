@@ -6,9 +6,12 @@ public class Main {
         System.out.print("일단 시험해보자");
         System.out.print("asdf");
 
-        for (int i = 1; i <= 5; i++) {
+        int x = 2+4+8+1;
+        x >> 1 ;
 
-            System.out.println("i = " + i);
-        }
+
+        System.out.println("tmp = " + x); // 10
+
+        // 교환이 성공적으로 되었습니다!
     }
 }
