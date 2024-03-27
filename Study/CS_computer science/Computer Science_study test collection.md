@@ -53,3 +53,4 @@ HTTP, WebSocket, Idempotent Methos, SSL(Secure Sockets Layer), TLS(Transport Lay
 CRUD
 공간 복잡도, 시간 복잡도
 Big-O, Big-Ω, Big-θ, O(1), O(log n), O(n), O(n^2), O(2^n)
+CPU Burst, I/O Burst
