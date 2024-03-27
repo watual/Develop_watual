@@ -46,7 +46,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                    "file": "Study/CS_computer science/CPU.md",
                     "mode": "source",
                     "source": false
                   }
@@ -64,8 +64,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/CS_computer science/TCP IP.md",
+                "file": "Study/CS_computer science/Computer Science_study test collection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/CS_computer science/TCP IP.md",
+                "file": "Study/CS_computer science/Computer Science_study test collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/CS_computer science/TCP IP.md"
+                "file": "Study/CS_computer science/Computer Science_study test collection.md"
               }
             }
           }
@@ -196,22 +195,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6f6c5e643826a36e",
+  "active": "20bf8816efd8b3fe",
   "lastOpenFiles": [
-    "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/CPU.md",
+    "Study/CS_computer science/File System.md",
     "Study/CS_computer science/OSI 7.md",
+    "Study/CS_computer science/SSD.md",
     "Study/CS_computer science/TCP IP.md",
+    "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/CU (Control Unit).md",
+    "Study/CS_computer science/explanation.md",
+    "Study/CS_computer science/IP주소.md",
+    "Study/CS_computer science/DB (Database).md",
     "TCP/IP.md",
     "TCP",
-    "Study/CS_computer science/CPU.md",
-    "Study/CS_computer science/IP주소.md",
     "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
-    "Study/CS_computer science/explanation.md",
     "Study/Obsidian/마크다운 사용법.md",
-    "Study/CS_computer science/DB (Database).md",
-    "Study/CS_computer science/CU (Control Unit).md",
-    "Study/CS_computer science/File System.md",
-    "Study/CS_computer science/SSD.md",
     "Study/CS_computer science/Register.md",
     "web/spartaflix/asdfasdf.md",
     "Commit MSG.md",

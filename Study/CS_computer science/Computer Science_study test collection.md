@@ -46,6 +46,8 @@ enqueue(), add(), dequeue(), poll(), push(), pop(), peek(), isEmpty() , collisio
 [[OSI 7#TCP/IP는 4계층 TCP와 3계층의 IP를 합쳐 부르는 용어다.|TCP/IP]] , [[OSI 7]]  , 계층 , 물리 계층(Physical Layer) , 데이터링크 계층(Data Link) , 네트워크 계층(Network) , 전송 계층(Transport) , 세션 계층(Session) , 표현 계층(Presentation) , 응용 계층(Application)
 DNS(도메인 관리), DHCP(IP할당), NTP(시간 관리)
 
+LAN, WAN, Client, Server, IP, Port, TCP handshake(3-way handshake, 4-way handshake), SYN, ACK
+TCP, UDP(User Datagram Protocol)
 
 CRUD
 공간 복잡도, 시간 복잡도
