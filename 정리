@@ -14,3 +14,13 @@ abs() : int, double 기본형 모두 사용 가능하며 절대값을 얻습니�
 ==
 
 
+char charAt(int index) : 문자열에서 해당 위치(index)에 있는 문자를 반환한다.
+
+int length() : 문자열의 길이를 반환한다.
+
+String substring(int from, int to) : 문자열에서 해당 범위(from~to)의 문자열을 반환한다.(to는 포함 안됨)
+
+boolean equals(Object obj) : 문자열의 내용이 같은지 확인한다. 
+같으면 true, 다르면 false
+
+char[] toCharArray() : 문자열을 문자배열(char[])로 변환해서 반환한다
