@@ -4,55 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "c6e460784ca3fc35",
-        "type": "tabs",
+        "id": "a02e277e1d53960f",
+        "type": "split",
         "children": [
           {
-            "id": "36c0e8c030e021bf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
+            "id": "c6e460784ca3fc35",
+            "type": "tabs",
+            "dimension": 73.4004739336493,
+            "children": [
+              {
+                "id": "36c0e8c030e021bf",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "20bf8816efd8b3fe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "b0af5e02793dc70e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
-                "mode": "source",
-                "source": false
+            "id": "39918f9841371227",
+            "type": "tabs",
+            "dimension": 26.59952606635071,
+            "children": [
+              {
+                "id": "d3cd4bdaa5b2cd67",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6f6c5e643826a36e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Study/CS_computer science/TCP IP.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "d3cd4bdaa5b2cd67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/CS_computer science/OSI 7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20bf8816efd8b3fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ],
+            "currentTab": 1
           }
         ],
-        "currentTab": 3
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -118,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "file": "Study/CS_computer science/TCP IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "file": "Study/CS_computer science/TCP IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md"
+                "file": "Study/CS_computer science/TCP IP.md"
               }
             }
           }
@@ -180,14 +196,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "20bf8816efd8b3fe",
+  "active": "6f6c5e643826a36e",
   "lastOpenFiles": [
-    "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
-    "Study/CS_computer science/explanation.md",
     "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/CS_computer science/OSI 7.md",
+    "Study/CS_computer science/TCP IP.md",
+    "TCP/IP.md",
+    "TCP",
     "Study/CS_computer science/CPU.md",
     "Study/CS_computer science/IP주소.md",
-    "Study/CS_computer science/OSI 7.md",
+    "Study/CS_computer science/ALU (Arithmetic Logic Unit).md",
+    "Study/CS_computer science/explanation.md",
     "Study/Obsidian/마크다운 사용법.md",
     "Study/CS_computer science/DB (Database).md",
     "Study/CS_computer science/CU (Control Unit).md",
@@ -215,7 +234,6 @@
     "Server/Sort.txt",
     "Server",
     "새 폴더",
-    "일정.txt",
     "Study/Obsidian/무제 파일.md",
     "Attached file/image.png",
     "Study/CS_computer science/견뎌야 하는 개소리.md",
@@ -226,8 +244,6 @@
     "HTML import/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968.md",
     "HTML import/Attachments/자료구조와-알고리즘.png",
     "HTML import/Attachments/스크린샷, 2020-12-15 14-57-07.png",
-    "HTML import/9강 OSI 7계층 dea2fe01bb05443ea0de573106a02883.md",
-    "HTML import/8강 자료구조의 동작과 활용 70b3f3a544aa432c943b214f0017fd65.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
