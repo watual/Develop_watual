@@ -15,3 +15,9 @@ Cassandra, ScyllaDB
 
 직무부트캠프 5주
 https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G601
+
+
+토스씨엑스
+Java, Javascript, Spring Framework
+MySQL, Tibero, Oracle, Redis
+Docker, Kubernetes, GoCD, Vault, Git
