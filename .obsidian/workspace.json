@@ -38,7 +38,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                    "file": "Study/Java.md",
                     "mode": "source",
                     "source": false
                   }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "file": "Study/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "file": "Study/Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/CS_computer science/Computer Science_study test collection.md"
+                "file": "Study/Java.md"
               }
             }
           }
@@ -209,9 +209,10 @@
   },
   "active": "c8fbf5f14d6c7a96",
   "lastOpenFiles": [
+    "Study/CS_computer science/Computer Science_study test collection.md",
+    "Study/Java.md",
     "IdeaProjects/test1/src/Main.java~",
     "Study/CS_computer science/CU (Control Unit).md",
-    "Study/CS_computer science/Computer Science_study test collection.md",
     "질문.md",
     "web/spartaflix/index123.html",
     "Study/CS_computer science/OSI 7.md",
@@ -246,7 +247,6 @@
     "주소.md",
     "이미지.md",
     "Server/Sort.txt",
-    "Server",
     "Study/Obsidian/무제 파일.md",
     "Attached file/image.png",
     "Study/CS_computer science/견뎌야 하는 개소리.md",

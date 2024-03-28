@@ -66,8 +66,8 @@
         // Firebase SDK 라이브러리 가져오기
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
         import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
-        import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
-        import { getDocs } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+        import { doc, deleteDoc, query, limit, collection, addDoc, orderBy, getDocs, getDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+    
 
         // Firebase 구성 정보 설정
         const firebaseConfig = {
@@ -110,6 +110,21 @@
             $('#card').append(temp_html);
         })
 
+        $("#deletebtn").click(async function () {
+        
+            const collectionPath = "movies";
+            const querySnapshot = await getDocs(query(collection(db, collectionPath), orderBy("title"), limit(1)));
+            alert(querySnapshot.docs[0]);
+            if (!querySnapshot.empty) {
+                const docToDelete = querySnapshot.docs[0];
+                alert(docToDelete.id);
+                await deleteDoc(doc(db, "movies", docToDelete.id));
+                console.log("First document deleted:", docToDelete.id);
+            } else {
+                console.log("No documents found in collection:", collectionPath);
+            }
+            window.location.reload();
+        })
         $("#postingbtn").click(async function () {
             let image = $('#image').val();
             let title = $('#title').val();
@@ -215,6 +230,7 @@
             <label for="floatingInput">추천 이유</label>
         </div>
         <button id="postingbtn" type="button" class="btn btn-danger">기록하기</button>
+        <button id="deletebtn" type="button" class="btn btn-danger" >삭제하기</button>
     </div>
 
 
