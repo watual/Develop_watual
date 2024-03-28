@@ -1,23 +1,44 @@
-네이버
-x
+네카 쿠배 x
 
 
 
-언어
+#언어
 Java, Scala
 
-data tools
+#Data tools
 Apache Kafka, Kafka Streams, Spark, Zookeeper
 
-No SQL
+#No SQL
 Cassandra, ScyllaDB
 
 
-직무부트캠프 5주
+#직무부트캠프 5주
 https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G601
 
 
-토스씨엑스
+#토스씨엑스
 Java, Javascript, Spring Framework
 MySQL, Tibero, Oracle, Redis
 Docker, Kubernetes, GoCD, Vault, Git
+
+#라인 MongoDB Engineer
+MongoDB
+RDBMS, NoSQL 제품 운영 관리 경험
+Rundeck, Ansible 자동화 구축 경험
+CI/CD 구축 경험
+Open source 도입 및 경험
+LINUX 환경 개발
+
+
+#LINE Messaging Anti-Abuse Data Engineer
+2년 이상의 Data Engineering 경험이 있으신 분
+실무 환경에서 데이터 파이프라인 구축 및 운영 경험이 있으신 분
+(단, 데이터 파이프라인 구축 경험 없이 데이터 분석 혹은 ML 경험만 있는 경우는 제외됩니다.)
+Java와 Python 프로그래밍 언어에 능숙하신 분
+해외 출장 및 근무에 결격 사유 없으신 분
+Flink, Kafka, ES 등을 사용한 실시간 데이터 파이프라인 구축 및 사용 경험이 있으신 분
+Scala 프로그래밍 언어에 능숙하신 분
+JVM에 대한 이해가 높은 분
+Hive나 Spark 등으로 Big Data 처리한 경험이 있으신 분
+외국어로 업무 진행이 가능하신 분(영어, 일본어 중 1개 이상)
+
