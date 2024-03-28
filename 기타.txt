@@ -1,0 +1,17 @@
+네이버
+x
+
+
+
+언어
+Java, Scala
+
+data tools
+Apache Kafka, Kafka Streams, Spark, Zookeeper
+
+No SQL
+Cassandra, ScyllaDB
+
+
+직무부트캠프 5주
+https://comento.kr/edu/learn/ITSW/SW%EA%B0%9C%EB%B0%9C-G601
