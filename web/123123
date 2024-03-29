@@ -1,0 +1,195 @@
+{
+    "_firestore": {
+        "app": {
+            "_isDeleted": false,
+            "_options": {
+                "apiKey": "AIzaSyDUo3wGBYmzDE0daVh0twAmzZ2r8TzyrGE",
+                "authDomain": "watual-f9224.firebaseapp.com",
+                "projectId": "watual-f9224",
+                "storageBucket": "watual-f9224.appspot.com",
+                "messagingSenderId": "307021915043",
+                "appId": "1:307021915043:web:ec35f5002d695d81a1f016",
+                "measurementId": "G-248XS4LSEE"
+            },
+            "_config": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false
+            },
+            "_name": "[DEFAULT]",
+            "_automaticDataCollectionEnabled": false,
+            "_container": {
+                "name": "[DEFAULT]",
+                "providers": {}
+            }
+        },
+        "databaseId": {
+            "projectId": "watual-f9224",
+            "database": "(default)"
+        },
+        "settings": {
+            "host": "firestore.googleapis.com",
+            "ssl": true,
+            "ignoreUndefinedProperties": false,
+            "cacheSizeBytes": 41943040,
+            "experimentalForceLongPolling": false,
+            "experimentalAutoDetectLongPolling": true,
+            "experimentalLongPollingOptions": {},
+            "useFetchStreams": true
+        }
+    },
+    "_userDataWriter": {
+        "firestore": {
+            "app": {
+                "_isDeleted": false,
+                "_options": {
+                    "apiKey": "AIzaSyDUo3wGBYmzDE0daVh0twAmzZ2r8TzyrGE",
+                    "authDomain": "watual-f9224.firebaseapp.com",
+                    "projectId": "watual-f9224",
+                    "storageBucket": "watual-f9224.appspot.com",
+                    "messagingSenderId": "307021915043",
+                    "appId": "1:307021915043:web:ec35f5002d695d81a1f016",
+                    "measurementId": "G-248XS4LSEE"
+                },
+                "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                }
+            },
+            "databaseId": {
+                "projectId": "watual-f9224",
+                "database": "(default)"
+            },
+            "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": true,
+                "experimentalLongPollingOptions": {},
+                "useFetchStreams": true
+            }
+        }
+    },
+    "_key": {
+        "path": {
+            "segments": [
+                "projects",
+                "watual-f9224",
+                "databases",
+                "(default)",
+                "documents",
+                "movies",
+                "BcOsHpx1ri38EEf21GKB"
+            ],
+            "offset": 5,
+            "len": 2
+        }
+    },
+    "_document": {
+        "key": {
+            "path": {
+                "segments": [
+                    "projects",
+                    "watual-f9224",
+                    "databases",
+                    "(default)",
+                    "documents",
+                    "movies",
+                    "BcOsHpx1ri38EEf21GKB"
+                ],
+                "offset": 5,
+                "len": 2
+            }
+        },
+        "documentType": 1,
+        "version": {
+            "timestamp": {
+                "seconds": 1711087628,
+                "nanoseconds": 424088000
+            }
+        },
+        "readTime": {
+            "timestamp": {
+                "seconds": 1711701323,
+                "nanoseconds": 254186000
+            }
+        },
+        "createTime": {
+            "timestamp": {
+                "seconds": 1711087628,
+                "nanoseconds": 424088000
+            }
+        },
+        "data": {
+            "value": {
+                "mapValue": {
+                    "fields": {
+                        "image": {
+                            "stringValue": "https://image.newsis.com/2021/11/22/NISI20211122_0000874500_web.jpg"
+                        },
+                        "comment": {
+                            "stringValue": "우주의 신비"
+                        },
+                        "star": {
+                            "stringValue": "⭐⭐⭐⭐⭐"
+                        },
+                        "title": {
+                            "stringValue": "고요의 바다"
+                        }
+                    }
+                }
+            }
+        },
+        "documentState": 0
+    },
+    "_converter": null,
+    "_firestoreImpl": {
+        "app": {
+            "_isDeleted": false,
+            "_options": {
+                "apiKey": "AIzaSyDUo3wGBYmzDE0daVh0twAmzZ2r8TzyrGE",
+                "authDomain": "watual-f9224.firebaseapp.com",
+                "projectId": "watual-f9224",
+                "storageBucket": "watual-f9224.appspot.com",
+                "messagingSenderId": "307021915043",
+                "appId": "1:307021915043:web:ec35f5002d695d81a1f016",
+                "measurementId": "G-248XS4LSEE"
+            },
+            "_config": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false
+            },
+            "_name": "[DEFAULT]",
+            "_automaticDataCollectionEnabled": false,
+            "_container": {
+                "name": "[DEFAULT]",
+                "providers": {}
+            }
+        },
+        "databaseId": {
+            "projectId": "watual-f9224",
+            "database": "(default)"
+        },
+        "settings": {
+            "host": "firestore.googleapis.com",
+            "ssl": true,
+            "ignoreUndefinedProperties": false,
+            "cacheSizeBytes": 41943040,
+            "experimentalForceLongPolling": false,
+            "experimentalAutoDetectLongPolling": true,
+            "experimentalLongPollingOptions": {},
+            "useFetchStreams": true
+        }
+    },
+    "metadata": {
+        "hasPendingWrites": false,
+        "fromCache": false
+    }
+}

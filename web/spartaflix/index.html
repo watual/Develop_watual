@@ -10,7 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <style>
-
         @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
         * {
@@ -67,7 +66,7 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
         import { getFirestore } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
         import { doc, deleteDoc, query, limit, collection, addDoc, orderBy, getDocs, getDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
-    
+
 
         // Firebase 구성 정보 설정
         const firebaseConfig = {
@@ -87,12 +86,14 @@
         let docs = await getDocs(collection(db, "movies"));
         docs.forEach((doc) => {
             let row = doc.data();
-            console.log(row);
+            doc.id;
+            //console.log(row);
 
             let image = row['image'];
             let title = row['title'];
             let comment = row['comment'];
             let star = row['star'];
+            let docs_id = doc.id;
             console.log(image, title, star, comment);
             let temp_html = `
             <div class="col">
@@ -104,27 +105,34 @@
                         <p class="card-text">${star}</p>
                         <p class="card-text">${comment}</p>
                     </div>
+
+                    <input type="button" class="deletebtn" id="${docs_id}" value="Delete"/>
                 </div>
             </div>`;
 
             $('#card').append(temp_html);
-        })
-
+        });
         $("#deletebtn").click(async function () {
-        
+            let docs_id = $(this).attr('id');
+            alert(docs_id);
+
+
+
             const collectionPath = "movies";
-            const querySnapshot = await getDocs(query(collection(db, collectionPath), orderBy("title"), limit(1)));
-            alert(querySnapshot.docs[0]);
+            const querySnapshot = await getDocs(query(collection(db, collectionPath), orderBy("title")));
+            //console.log(querySnapshot);
+            //console.log(querySnapshot.id);
+
             if (!querySnapshot.empty) {
                 const docToDelete = querySnapshot.docs[0];
-                alert(docToDelete.id);
-                await deleteDoc(doc(db, "movies", docToDelete.id));
+                //alert(docToDelete.id);
+                //await deleteDoc(doc(db, "movies", docToDelete.id));
                 console.log("First document deleted:", docToDelete.id);
             } else {
                 console.log("No documents found in collection:", collectionPath);
             }
-            window.location.reload();
-        })
+            //window.location.reload();
+        });
         $("#postingbtn").click(async function () {
             let image = $('#image').val();
             let title = $('#title').val();
@@ -140,9 +148,8 @@
             await addDoc(collection(db, "movies"), doc);
             alert('저장 완료!');
             window.location.reload();
-        })
-        let lalala = "            .-======-:.                         .============-...                    :====================-.            .:-========================.        :=============================.     .==========:'''''''''':=========:     ==========.            .========:     ==========-.          .-========:     ==============-      -===========:    .===========-.     :==============     ==========.      .===============.   :=========.            :==========    :=========-............-========-      =============================-:        -========================-:            .:-====================:                       :===========-.                          .:--==--:.              ######## ######## ########         ##  ##       ##     ##       ##   ##       ##     ##      ##    ######   ########      ##     ##       ##        ##      ##       ##     PRD  ######## ######## ##     dfe5f24dfe5f24c06a963559069ff598b7dd7cfec2a62b4";
-        console.log(lalala);
+        });
+
         let url = "http://spartacodingclub.shop/sparta_api/weather/seoul";
         fetch(url).then(res => res.json()).then(data => {
             let temp = data['temp'];
@@ -151,14 +158,12 @@
             } else {
                 $('#temp').text("추워요");
             }
-        })
+        });
 
         $("#savebtn").click(async function () {
             $('#postingbox').toggle();
-        })
+        });
 
-        function makeCard() {
-        }
 
     </script>
 </head>
@@ -180,6 +185,7 @@
                     <li><a href="#" class="nav-link px-2 text-white">영화</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">내가 찜한 콘텐츠</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">오늘의 날씨: <span id="temp"></span></a></li>
+                    <input type="button" class="btn btn-outline-danger" id="asdqwe123" value="Delete" />
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -230,7 +236,6 @@
             <label for="floatingInput">추천 이유</label>
         </div>
         <button id="postingbtn" type="button" class="btn btn-danger">기록하기</button>
-        <button id="deletebtn" type="button" class="btn btn-danger" >삭제하기</button>
     </div>
 
 
