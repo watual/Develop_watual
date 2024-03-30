@@ -1,53 +1,106 @@
+//주석처리 : Ctrl+/
 
-public class Main {
-    public static void main(String[] args) {
-        int count = 0;
+// //======================================================================
+// // &&, || / and, or 연산자 문제
+// import java.util.Scanner;
 
-        int i_print = 1;
-        long data = 257948135L;
-        int i_break = 0;
+// public class Main {
+//     public static void main(String[] args) {
 
-        while (data <= 9876543210L) {
-            /*
-             * 행열검사
-             * 조건 검사 : 자릿수 거리 차이[data,i2차이]=값 차이[board[data],board[i2]차이]
-             * 검사 횟수 : (n+1)*n/2 > 시간 복잡도 n^2
-             */
-            long a = 1L;
-            int a_dig = 1;
-            while (a < 876543210L && i_break < 1) { // 98억 7654만 3210원 a는 1~1억, b는 10~10억
-                long b = a;
-                int b_dig = a_dig;
-                while (b < 876543210L && i_break < 1) { // b 1억까지
-                    b = b * 10;
-                    b_dig++;
-                    long c1 = data/a%10;
-                    long c2 = data/b%10;
-                    if ( ( c1==c2 ) || ((a_dig-b_dig) == (c1-c2)) || ((a_dig-b_dig) == (c2-c1)) ) { //
-                        i_break = 1;
-                        i_print = 0;
-                    }
-                }
-                a = a * 10;
-                a_dig++;
-            }
-            i_break = 0;
+//         Scanner scan = new Scanner(System.in);
 
-            // 출력
-            if (i_print > 0) {
-                if (data < 1000000000) {
-                    System.out.print("0");
-                }
-                count++;
-                System.out.println(data+"$");
-            }
-            // 반복 실행 특정인자 수정
-            data++;
-            i_print = 1;
-        }
-        System.out.println(count);
-    }
-}
+//         int x = scan.nextInt();
+        
+//         // && : 좌측값이 true면 우측값 반환, 좌측값이 false면 좌측값 반환
+//         // || : 좌측값이 true면 좌측값 반환, 좌측값이 false면 좌측값 반환
+        
+//         if ( (x%400==0) || (x%100!=0) && (x%4==0) ) {
+//             System.out.println("1");
+//         } else {
+//             System.out.println("0");
+//         }
+
+//         scan.close();
+//     }
+// }
+// 
+
+// //======================================================================
+// // &&, || / and, or 연산자 문제
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //======================================================================
+// // n-queen 문제
+// public class Main {
+//     public static void main(String[] args) {
+//         int count = 0;
+
+//         int i_print = 1;
+//         long data = 257948135L;
+//         int i_break = 0;
+
+//         while (data <= 9876543210L) {
+//             /*
+//              * 행열검사
+//              * 조건 검사 : 자릿수 거리 차이[data,i2차이]=값 차이[board[data],board[i2]차이]
+//              * 검사 횟수 : (n+1)*n/2 > 시간 복잡도 n^2
+//              */
+//             long a = 1L;
+//             int a_dig = 1;
+//             while (a < 876543210L && i_break < 1) { // 98억 7654만 3210원 a는 1~1억, b는 10~10억
+//                 long b = a;
+//                 int b_dig = a_dig;
+//                 while (b < 876543210L && i_break < 1) { // b 1억까지
+//                     b = b * 10;
+//                     b_dig++;
+//                     long c1 = data/a%10;
+//                     long c2 = data/b%10;
+//                     if ( ( c1==c2 ) || ((a_dig-b_dig) == (c1-c2)) || ((a_dig-b_dig) == (c2-c1)) ) { //
+//                         i_break = 1;
+//                         i_print = 0;
+//                     }
+//                 }
+//                 a = a * 10;
+//                 a_dig++;
+//             }
+//             i_break = 0;
+
+//             // 출력
+//             if (i_print > 0) {
+//                 if (data < 1000000000) {
+//                     System.out.print("0");
+//                 }
+//                 count++;
+//                 System.out.println(data+"$");
+//             }
+//             // 반복 실행 특정인자 수정
+//             data++;
+//             i_print = 1;
+//         }
+//         System.out.println(count);
+//     }
+// }
 
 /*
  * 0257948136

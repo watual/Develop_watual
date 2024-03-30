@@ -6,20 +6,22 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        int test = scan.nextInt();
-
-        if (test > 90) {
-            System.out.println("A");
-        } else if (test > 80) {
-            System.out.println("B");
-        } else if (test > 70) {
-            System.out.println("C");
-        } else if (test > 60) {
-            System.out.println("D");
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int reward = 0;
+        if (a == b && b == c) {
+            reward = 10000 + a * 1000;
+        } else if (a == b || a == c) {
+            reward = 1000 + a * 100;
+        } else if (b == c) {
+            reward = 1000 + b * 100;
         } else {
-            System.out.println("F");
+            reward = Math.max(Math.max(a, b), c) * 100;
         }
-        
+
+        System.out.println(reward);
+
         scan.close();
     }
 }
