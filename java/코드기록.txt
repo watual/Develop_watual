@@ -396,8 +396,58 @@
         }
 //========== 반복문 ==========//
 //========== 구구단 ==========//
+    import java.util.Scanner;
+    public class Main {
+        public static void main(String[] args) {
+
+            Scanner scan = new Scanner(System.in);
+
+            int n = scan.nextInt();
+
+            for (int i = 1; i < 10; i++) {
+                System.out.println(n + " * " + i + " = " + n * i);
+            }
+
+            scan.close();
+        }
+    }
 //========== A+B - 3 ==========//
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) {
+
+            Scanner scan = new Scanner(System.in);
+
+            int n = scan.nextInt();
+            ArrayList<Integer> lista = new ArrayList<Integer>(n);
+            ArrayList<Integer> listb = new ArrayList<Integer>(n);
+
+            for (int i = 0; i < n; i++) {
+                lista.add(scan.nextInt());
+                listb.add(scan.nextInt());
+
+            }
+            for (int i = 0; i < n; i++) {
+                System.out.println(lista.get(i) + listb.get(i));
+            }
+            scan.close();
+        }
+    }
 //========== 합 ==========//
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) {
+
+            Scanner scan = new Scanner(System.in);
+            int n = scan.nextInt();
+
+            System.out.println((n + 1) * n / 2);
+
+            scan.close();
+        }
+    }
 //========== 영수증 ==========//
 //========== 코딩은 체육과목 입니다 ==========//
 //========== 빠른 A+B ==========//
