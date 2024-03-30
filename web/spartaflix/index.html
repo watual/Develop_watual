@@ -105,13 +105,13 @@
                         <p class="card-text">${star}</p>
                         <p class="card-text">${comment}</p>
                     </div>
-
                     <input type="button" class="deletebtn" id="${docs_id}" value="Delete"/>
                 </div>
             </div>`;
 
             $('#card').append(temp_html);
         });
+
         $('.deletebtn').click(async function () {
             let docs_id = $(this).attr('id');
             //alert(docs_id);
@@ -131,6 +131,7 @@
             }
             window.location.reload();
         });
+
         $("#postingbtn").click(async function () {
             let image = $('#image').val();
             let title = $('#title').val();
@@ -161,7 +162,6 @@
         $("#savebtn").click(async function () {
             $('#postingbox').toggle();
         });
-
 
     </script>
 </head>
@@ -209,6 +209,7 @@
             </div>
         </div>
     </div>
+
     <div class="mypostingbox" id="postingbox">
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="image" placeholder="영화 이미지 주소">
@@ -229,13 +230,13 @@
                 <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
             </select>
         </div>
+        
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="comment" placeholder="추천 이유">
             <label for="floatingInput">추천 이유</label>
         </div>
         <button id="postingbtn" type="button" class="btn btn-danger">기록하기</button>
     </div>
-
 
     <div class="mycards">
         <div id="card" class="row row-cols-1 row-cols-md-4 g-4">

@@ -1,17 +1,25 @@
+
 import java.util.Scanner;
 
-import javax.security.sasl.SaslException;
 public class Main {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
 
-        int a = s.nextInt();
-        int b = s.nextInt();
-        int c = s.nextInt();
+        Scanner scan = new Scanner(System.in);
 
-        System.out.println((a+b)%c);
-        System.out.println((a%c+b%c)%c);
-        System.out.println((a*b)%c);
-        System.out.println(((a%c)*(b%c))%c);
+        int test = scan.nextInt();
+
+        if (test > 90) {
+            System.out.println("A");
+        } else if (test > 80) {
+            System.out.println("B");
+        } else if (test > 70) {
+            System.out.println("C");
+        } else if (test > 60) {
+            System.out.println("D");
+        } else {
+            System.out.println("F");
+        }
+        
+        scan.close();
     }
 }
