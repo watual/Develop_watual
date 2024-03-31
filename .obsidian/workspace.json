@@ -4,82 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "a02e277e1d53960f",
-        "type": "split",
+        "id": "c6e460784ca3fc35",
+        "type": "tabs",
         "children": [
           {
-            "id": "c6e460784ca3fc35",
-            "type": "tabs",
-            "dimension": 73.4004739336493,
-            "children": [
-              {
-                "id": "36c0e8c030e021bf",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "20bf8816efd8b3fe",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Study/CS_computer science/Computer Science_study test collection.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c8fbf5f14d6c7a96",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Study/Java.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 2
+            "id": "36c0e8c030e021bf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           },
           {
-            "id": "39918f9841371227",
-            "type": "tabs",
-            "dimension": 26.59952606635071,
-            "children": [
-              {
-                "id": "d3cd4bdaa5b2cd67",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Study/CS_computer science/CPU.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6f6c5e643826a36e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Study/CS_computer science/TCP IP.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "20bf8816efd8b3fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/CS_computer science/Computer Science_study test collection.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "c8fbf5f14d6c7a96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,7 +168,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c8fbf5f14d6c7a96",
+  "active": "8f9722707e7bbe36",
   "lastOpenFiles": [
     "java/코드기록.txt",
     "Study/CS_computer science/Computer Science_study test collection.md",
