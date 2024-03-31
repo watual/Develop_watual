@@ -10,21 +10,22 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st;
+        String str;
+        int data = 0, max = 0, max_cnt = 0,count = 1;
 
-        String str = br.readLine();
-        int n = Integer.parseInt(str);
-
-        str = br.readLine();
-        st = new StringTokenizer(str, " ");
-        int num = Integer.parseInt(br.readLine());
-        int count = 0;
-
-        for (int i = 0; i < n; i++) {
-            if (num == Integer.parseInt(st.nextToken())) {
-                count++;
+        while((str=br.readLine())!=null){
+            if(str.isBlank()){
+                break;
             }
+            data=Integer.parseInt(str);
+            if(data > max){
+                max = data;
+                max_cnt = count;
+            }
+            count++;
         }
-        bw.write(count + "\n");
+        bw.write(max + "\n" + max_cnt);
+        bw.write("\n");
         bw.close();
     }
 }

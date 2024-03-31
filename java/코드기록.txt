@@ -707,16 +707,118 @@
             bw.close();
         }
     }
-//========== X보다 작은 수 ==========//
+//========== X보다 작은 수 : StringTokenizer split 기준, countToken() ==========//
+    import java.io.BufferedReader;
+    import java.io.BufferedWriter;
+    import java.io.IOException;
+    import java.io.InputStreamReader;
+    import java.io.OutputStreamWriter;
+    import java.util.StringTokenizer;
 
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
+    public class Main {
+        public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+            StringTokenizer st;
+            String str;
+            int n = 0, x = 0;
+
+            str = br.readLine();
+            st = new StringTokenizer(str, " "); // split기준을 지정하거나, 비워둠으로 /t /n /r /f 등 공백문자를 기준으로 지정한다
+            n = Integer.parseInt(st.nextToken());
+            x = Integer.parseInt(st.nextToken());
+
+            str = br.readLine();
+            st = new StringTokenizer(str);
+            int data = 0;
+            for (int i = 0; i < n; i++) { // st.countToken(); 을 이용해 개수 측정도 가능
+                if (x > (data = Integer.parseInt(st.nextToken()))) {
+                    bw.write(data + " ");
+                }
+            }
+            bw.write("\n");
+            bw.close();
+        }
+    }
+//========== 최소, 최대 ==========//
+    import java.io.BufferedReader;
+    import java.io.BufferedWriter;
+    import java.io.IOException;
+    import java.io.InputStreamReader;
+    import java.io.OutputStreamWriter;
+    import java.util.StringTokenizer;
+
+    public class Main {
+        public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+            StringTokenizer st;
+            String str;
+            int n = 0, data = 0, min = 0, max = 0;
+
+            n = Integer.parseInt(br.readLine());
+
+            str = br.readLine();
+            st = new StringTokenizer(str, " ");
+            min = max = data = Integer.parseInt(st.nextToken());
+            for (int i = 1; i < n; i++) {
+                data = Integer.parseInt(st.nextToken());
+                if (data < min) {
+                    min = data;
+                }
+                if (data > max) {
+                    max = data;
+                }
+            }
+            bw.write(min + " " + max);
+            bw.write("\n");
+            bw.close();
+        }
+    }
+//========== 최댓값 ==========//
+    import java.io.BufferedReader;
+    import java.io.BufferedWriter;
+    import java.io.IOException;
+    import java.io.InputStreamReader;
+    import java.io.OutputStreamWriter;
+    import java.util.StringTokenizer;
+
+    public class Main {
+        public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+            StringTokenizer st;
+            String str;
+            int data = 0, max = 0, max_cnt = 0,count = 1;
+
+            while((str=br.readLine())!=null){
+                if(str.isBlank()){
+                    break;
+                }
+                data=Integer.parseInt(str);
+                if(data > max){
+                    max = data;
+                    max_cnt = count;
+                }
+                count++;
+            }
+            bw.write(max + "\n" + max_cnt);
+            bw.write("\n");
+            bw.close();
+        }
+    }
+//========== 공 넣기 ==========//
+
+//========== 공 바꾸기 ==========//
+
+//========== 과제 안 내신 분..? ==========//
+
+//========== 나머지 ==========//
+
+//========== 바구니 뒤집기 ==========//
+
+//========== 평균 ==========//
+
 //==========  ==========//
 //==========  ==========//
 //==========  ==========//
