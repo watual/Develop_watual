@@ -57,5 +57,5 @@ bw.close();
 - Scanner 의 경우 : hasNext() 메소드를 이용해 검사한다.
 
 #### Buffer
-- BufferedReader : close() 메소드를 명시하지 않아도 Garbage Collector에 의해 내부 객체들이 자동으로 정리되지만 자원이 정리되기 전에 지속적으로 BufferedReader가 사용되면 정상적으로 읽히지 않습니다. 따라서, 주기적으로 사용하는 경우 close() 메소드를 사용해야 합니다.
-- 
+- BufferedReader : close() 메소드를 명시하지 않아도 Garbage Collector에 의해 내부 객체들이 자동으로 정리되지만 자원이 정리되기 전에 지속적으로 BufferedReader가 사용되면 정상적으로 읽히지 않습니다. 따라서, 주기적으로 사용하는 경우 close() 메소드를 사용해야한다.
+- write() 메소드는 String형으로 출력하기 때문에 자료형이 다르다면 수정해야한다.
