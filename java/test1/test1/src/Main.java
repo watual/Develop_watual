@@ -5,23 +5,34 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int count = 0, result=1;
-        int[] num = new int[10];
+        StringTokenizer st;
 
-        for (int i = 0; i < 10; i++) {
-            num[i] = Integer.parseInt(br.readLine()) % 42;
-            count=0;
-            for (int j = 0; j < i; j++) {
-                if (num[i] != num[j]) {
-                    count++;
-                }
-                if(count>=i){
-                    result++;
-                }
-            }
+        st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+
+        int[] num = new int[n];
+        for (int i = 0; i < n; i++) {
+            num[i] = i + 1;
         }
-        bw.write(String.valueOf(result));
+
+        for (int i = 0; i < m; i++) {
+            st = new StringTokenizer(br.readLine());
+            change(num, Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
+        }
+
+        for (int i = 0; i < n; i++) {
+            bw.write(String.valueOf(num[i]) + " ");
+        }
         bw.write("\n");
         bw.close();
+    }
+
+    private static void change(int[] num, int a, int b) {
+        for (int i = 0; i <= (b - a) / 2; i++) {
+            int k = num[a + i - 1];
+            num[a + i - 1] = num[b - i - 1];
+            num[b - i - 1] = k;
+        }
     }
 }

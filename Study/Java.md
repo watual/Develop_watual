@@ -59,3 +59,14 @@ bw.close();
 #### Buffer
 - BufferedReader : close() 메소드를 명시하지 않아도 Garbage Collector에 의해 내부 객체들이 자동으로 정리되지만 자원이 정리되기 전에 지속적으로 BufferedReader가 사용되면 정상적으로 읽히지 않습니다. 따라서, 주기적으로 사용하는 경우 close() 메소드를 사용해야한다.
 - write() 메소드는 String형으로 출력하기 때문에 자료형이 다르다면 수정해야한다.
+
+
+#### 함수 인자 전달
+- 자바에서 함수 호출 시 인자를 전달할 때는 두 가지 경우가 있다.
+	1. primitive type / 기본형 : 값을 복사해서 전달 받는다. 주소를 받고 싶을땐 포인터 int \*x 를 사용한다.
+		- 종류 : byte, char, short, int, long, float, double, boolean
+	2. reference type / 참조형 : 값의 주소를 전달 받는다. 기본형을 제외한 모든 매개변수다.
+		- java.lang.object 를 상속받는 모든 객체
+
+#### method
+- static : 별도의 객체 선언 없이 바로 사용할 수 있게 메모리 static영역에 고정된다.
