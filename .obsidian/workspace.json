@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Blog/블로그 시작하기.md",
+                "file": "Study/Blog/기록.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Blog/블로그 시작하기.md",
+                "file": "Study/Blog/기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Blog/블로그 시작하기.md",
+                "file": "Study/Blog/기록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Blog/블로그 시작하기.md"
+                "file": "Study/Blog/기록.md"
               }
             }
           }
@@ -170,19 +170,21 @@
   },
   "active": "c8fbf5f14d6c7a96",
   "lastOpenFiles": [
-    "IdeaProjects/Ranking_idol_Project/src/test/java/com/example/ranking_idol_project/RankingIdolProjectApplicationTests.java",
-    "IdeaProjects/Ranking_idol_Project/src/test/java/com/example/ranking_idol_project",
-    "IdeaProjects/Ranking_idol_Project/src/test/java/com/example",
-    "IdeaProjects/Ranking_idol_Project/src/test/java/com",
-    "IdeaProjects/Ranking_idol_Project/src/test/java",
-    "IdeaProjects/Ranking_idol_Project/src/test",
-    "IdeaProjects/Ranking_idol_Project/src/main/resources/application.properties",
-    "IdeaProjects/Ranking_idol_Project/src/main/resources",
-    "IdeaProjects/Ranking_idol_Project/src/main/java/com/example/ranking_idol_project/RankingIdolProjectApplication.java",
-    "IdeaProjects/Ranking_idol_Project/src/main/java/com/example/ranking_idol_project",
-    "IdeaProjects/Ranking_idol_Project/src/main/java/com/example",
+    "IdeaProjects/Ranking_Idol_Project/src/main/resources/templates/save.html~",
+    "IdeaProjects/Ranking_Idol_Project/src/main/resources/templates/save.html",
+    "IdeaProjects/Ranking_Idol_Project/src/main/java/org/project/ranking_idol_project/controller/MemberController.java~",
+    "IdeaProjects/Ranking_Idol_Project/src/main/java/org/project/ranking_idol_project/controller/MemberController.java",
+    "IdeaProjects/Ranking_Idol_Project/src/main/java/org/project/ranking_idol_project/RankingIdolProjectApplication.java~",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main/static",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main/templates/index.html",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main/templates",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main/application.yml",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main/application.properties",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/main",
+    "IdeaProjects/Ranking_Idol_Project/HELP.md",
+    "Study/Blog/기록.md",
+    "Study/Blog/기록.md",
     "Study/Java.md",
-    "Study/Blog/블로그 시작하기.md",
     "Study/CS_computer science/Computer Science_study test collection.md",
     "Study/CS_computer science/CU (Control Unit).md",
     "질문.md",
@@ -209,8 +211,6 @@
     "Attached file/Pasted image 20240325151819.png",
     "ALU^45ea71.md",
     "주소.md",
-    "이미지.md",
-    "Study/Obsidian/무제 파일.md",
     "Attached file/image.png",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled.png",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled 1.png",
