@@ -980,11 +980,86 @@
 //==========  ==========//
 //==========  ==========//
 //==========  ==========//
+//========== 역진법 ==========//
+    import java.io.*;
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) throws IOException {
+
+            // 진법 B, 10진수 N
+            int B = 7; // 진법
+            int N = 560; // 10진수의 값
+            int max_exp = 0;
+            while (Math.pow(B, max_exp) < N) { // 7진법의 [7의 m승] 까지 존재하단걸 확인
+                max_exp++;
+            }
+            int[] e자릿수 = new int[max_exp]; // 4개 max_exp = 4
+
+            for (int k = 0; k < max_exp - 1; k++) { // 지수는 3승~0승
+                if (N > Math.pow(B, max_exp - 1 - k)) {
+                    e자릿수[k] = N / (int) Math.pow(B, max_exp - 1 - k);
+                    N = N % (int) Math.pow(B, max_exp - 1 - k);
+                }
+            }
+
+            for (int k = 0; k < max_exp; k++) {
+                //System.out.print(e자릿수[k]);
+            }
+            
+            //Scanner sc = new Scanner(System.in);
+            //char n = sc.next().charAt(0);
+            //System.out.print(n);
+        }
+    }
 //==========  ==========//
 //==========  ==========//
-//==========  ==========//
-//==========  ==========//
-//==========  ==========//
+//========== 일반 수학 1 ==========//
+    //========== 세탁소 사장 동혁 ==========//
+    import java.io.*;
+    import java.util.*;
+
+    public class Main {
+        public static void main(String[] args) throws IOException {
+
+            Scanner sc = new Scanner(System.in);
+
+            int n = sc.nextInt(); // 3
+            int x1 = 0;
+            int[] arr = new int[n];
+            int[][] arr2 = new int[n][4];
+
+            for (int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+                for (int j = 0; j < 4; j++) {
+                    switch (j) {
+                        case 0:
+                            x1 = 25;
+                            break;
+                        case 1:
+                            x1 = 10;
+                            break;
+                        case 2:
+                            x1 = 5;
+                            break;
+                        case 3:
+                            x1 = 1;
+                            break;
+                        default:
+                            ;
+                    }
+                    arr2[i][j] = arr[i] / x1;
+                    arr[i] = arr[i] % x1;
+
+                }
+
+            }
+            for (int i = 0; i < n; i++) {
+                System.out.println(arr2[i][0] + " " + arr2[i][1] + " " + arr2[i][2] + " " + arr2[i][3]);
+            }
+            sc.close();
+        }
+    }
 //==========  ==========//
 //========== N-Queen ==========//
     // public class Main {
