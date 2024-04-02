@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Java.md",
+                "file": "Study/Blog/블로그 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Java.md",
+                "file": "Study/Blog/블로그 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Java.md",
+                "file": "Study/Blog/블로그 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Java.md"
+                "file": "Study/Blog/블로그 시작하기.md"
               }
             }
           }
@@ -168,14 +168,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8f9722707e7bbe36",
+  "active": "c8fbf5f14d6c7a96",
   "lastOpenFiles": [
+    "Study/Java.md",
+    "Study/Blog/블로그 시작하기.md",
+    "Study/Blog/무제 폴더",
+    "Study/Blog",
     "Projects/프로젝트 개요",
     "Projects/Java 웹 개발 프로젝트",
     "Projects",
     "java/코드기록.txt",
     "Study/CS_computer science/Computer Science_study test collection.md",
-    "Study/Java.md",
     "IdeaProjects/test1/src/Main.java~",
     "Study/CS_computer science/CU (Control Unit).md",
     "질문.md",
@@ -203,9 +206,6 @@
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_2주차_백원하.PNG",
     "Attached file/Pasted image 20240325151819.png",
     "대화.txt",
-    "대화.tvt",
-    "etc/OT 내용.txt",
-    "etc/OT 발표.txt",
     "ALU^45ea71.md",
     "주소.md",
     "이미지.md",
