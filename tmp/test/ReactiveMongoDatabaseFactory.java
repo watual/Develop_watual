@@ -1,4 +1,4 @@
-package org.project.ranking_idol_project.test;
+package org.project.ranking_idol_project.test1;
 
 import com.mongodb.reactivestreams.client.MongoDatabase;
 import org.springframework.dao.DataAccessException;

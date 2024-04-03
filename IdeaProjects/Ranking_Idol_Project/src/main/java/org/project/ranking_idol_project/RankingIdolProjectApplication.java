@@ -1,7 +1,7 @@
 package org.project.ranking_idol_project;
 
 import com.mongodb.reactivestreams.client.MongoClients;
-import org.project.ranking_idol_project.test.Person;
+//import org.project.ranking_idol_project.test1.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,14 +20,14 @@ public class RankingIdolProjectApplication {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(RankingIdolProjectApplication.class, args);
 
-        ReactiveMongoOperations mongoOps = new ReactiveMongoTemplate(MongoClients.create(), "database");
-
-        mongoOps.insert(new Person("Joe", 34))
-                .then(mongoOps.query(Person.class).matching(where("name").is("Joe")).first())
-                .doOnNext(System.out::println)
-                .block();
-
-        mongoOps.dropCollection("person").block();
+//        ReactiveMongoOperations mongoOps = new ReactiveMongoTemplate(MongoClients.create(), "database");
+//
+//        mongoOps.insert(new Person("Joe", 34))
+//                .then(mongoOps.query(Person.class).matching(where("name").is("Joe")).first())
+//                .doOnNext(System.out::println)
+//                .block();
+//
+//        mongoOps.dropCollection("person").block();
 
     }
 }

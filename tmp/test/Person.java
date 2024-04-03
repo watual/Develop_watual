@@ -1,4 +1,4 @@
-package org.project.ranking_idol_project.test;
+package org.project.ranking_idol_project.test1;
 
 public class Person {private String id;
     private String name;

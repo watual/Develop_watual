@@ -21,6 +21,9 @@ memberrepository > memberDocument를 사용해 출력
 
 
 
+save의 입력값이 controller로 오고 그걸 서비스로 넘기고,
+서비스에선 DTO객체를 NTT객체로 변환해서 NTT객체를 레퍼지토리로 세이브메소드로 넘긴다
+spring data jpa를 쓰기 위해선 NTT객체를 넘겨줘야한다
 
 
 User = MflexDocument
@@ -44,3 +47,21 @@ controller{ @컨트롤러,
 
 
     레포지토리[부모]에서 몽고레포지 상속(엔티티_Doc를 갖고)
+
+Mongo instance 생성
+    Spring 기반에서는 다음과 같이 Mongo에 대한 인스턴스 생성이 필요하다
+MongoDBFactory 생성
+    다음으로 Mongo 인스턴스와 연결을 위한 MongoDBFactory이 필요하다
+MongoTemplate 생성
+    실제 mongoDB에 대한 처리(operations)를 위하여 MongoTemplate을 생성한다.
+        MontoTemplate의 다은과 같은 생성자를 통해 생성될 수 있다.
+            MongoTemplate(Mongo mongo, String databaseName)
+            MongoTemplate(Mongo mongo, String databaseName, UserCredentials userCredentials) : 사용자 접속 정보 추가
+            MongoTemplate(MongoDbFactory mongoDbFactory) : MogoDbFactory(com.mongodb.Mongo object, database name 및 접속 계정 포함)를 통한 연결
+            MongoTemplate(MongoDbFactory mongoDbFactory, MongoConverter mongoConverter) : 매핑을 위한 MongoConverter 사용
+
+MongoTemplate는 저장, 수정, 삭제 및 object 매팽 등의 기본 기능을 제공한다.
+다음은 Person 객체에 대한 간단한 기본 예제이다.
+    
+_id 필드 처리
+문서 저장 처리(save, insert)
