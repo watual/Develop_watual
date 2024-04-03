@@ -38,9 +38,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d9b05f18c20da7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Blog/기록.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -168,8 +180,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c8fbf5f14d6c7a96",
+  "active": "0d9b05f18c20da7e",
   "lastOpenFiles": [
+    "java/record.txt",
+    "IdeaProjects/Ranking_Idol_Project/build/resources/test",
+    "java/record.java",
     "IdeaProjects/Ranking_Idol_Project/src/main/resources/templates/save.html~",
     "IdeaProjects/Ranking_Idol_Project/src/main/resources/templates/save.html",
     "IdeaProjects/Ranking_Idol_Project/src/main/java/org/project/ranking_idol_project/controller/MemberController.java~",
@@ -178,9 +193,6 @@
     "IdeaProjects/Ranking_Idol_Project/build/resources/main/static",
     "IdeaProjects/Ranking_Idol_Project/build/resources/main/templates/index.html",
     "IdeaProjects/Ranking_Idol_Project/build/resources/main/templates",
-    "IdeaProjects/Ranking_Idol_Project/build/resources/main/application.yml",
-    "IdeaProjects/Ranking_Idol_Project/build/resources/main/application.properties",
-    "IdeaProjects/Ranking_Idol_Project/build/resources/main",
     "IdeaProjects/Ranking_Idol_Project/HELP.md",
     "Study/Blog/기록.md",
     "Study/Blog/기록.md",

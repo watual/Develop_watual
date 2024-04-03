@@ -1,0 +1,46 @@
+
+
+
+HomeController > return index
+ -"/" 기본경로를 getmapping
+ -templates 기본 경로에 index를 return
+
+index.html > /member/save
+ -[ a href="/member/save"] 로 데이터 전송
+
+membercontroller > return save 
+ -/member/save를 getmapping > save
+ -/member/save를 postmapping > print, memberservice, return index
+
+memberservice > memberrepository[entity] 를 NoSQL방식으로 수정[document]
+    memberrepository > memberentity를 통해 DB값을 받아옴[jpa를 사용해 자바 객체처럼 활용]
+        memberentity > table명, column 생성
+    memberDTO > 테이블 생성
+
+memberrepository > memberDocument를 사용해 출력
+
+
+
+
+
+User = MflexDocument
+createUser
+getAllUsers
+getUserById
+deleteUserById
+
+controller{ @컨트롤러, 
+    서비스 선언
+
+    getmapping 
+}
+
+    private String _id;
+    private String name;
+    private String email;
+    private String movie_id;
+    private String text;
+    private String date;
+
+
+    레포지토리[부모]에서 몽고레포지 상속(엔티티_Doc를 갖고)
