@@ -1,0 +1,23 @@
+
+.main_logo {}
+
+.nav_bar_top {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-color: rgb(51, 23, 78);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nav_bar_left {
+    position: absolute;
+    background-color: rgb(27, 122, 95);
+}
+
+.cus-nav-bar {
+    color: chartreuse;
+}
+.cus-nav-bar:hover {
+    color: pink;
+}

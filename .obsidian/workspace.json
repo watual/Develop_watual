@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Blog/기록.md",
+                "file": "Study/Blog/CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Blog/기록.md",
+                "file": "Study/Blog/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Blog/기록.md",
+                "file": "Study/Blog/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Blog/기록.md"
+                "file": "Study/Blog/CSS.md"
               }
             }
           }
@@ -182,21 +182,24 @@
   },
   "active": "0d9b05f18c20da7e",
   "lastOpenFiles": [
-    "IdeaProjects/demo1/build/classes/java/main/org/projecta/demo1/ReactiveMongoDatabaseFactory.class",
-    "IdeaProjects/demo1/build/classes/java/main/org/projecta/demo1/ReactiveMongoApplication.class",
-    "IdeaProjects/demo1/build/classes/java/main/org/projecta/demo1/Demo1Application.class",
-    "IdeaProjects/demo1/build/classes/java/main/org/projecta/demo1/AppConfig.class",
-    "IdeaProjects/demo1/build/tmp/compileJava/compileTransaction/stash-dir/Demo1Application.class.uniqueId0",
-    "IdeaProjects/demo1/build/tmp/compileJava/compileTransaction/stash-dir",
-    "IdeaProjects/demo1/build/tmp/compileJava/compileTransaction/backup-dir",
-    "IdeaProjects/demo1/build/tmp/compileJava/compileTransaction",
-    "IdeaProjects/demo1/src/main/java/org/projecta/demo1/ReactiveMongoApplication.java~",
-    "IdeaProjects/demo1/src/main/java/org/projecta/demo1/ReactiveMongoApplication.java",
-    "IdeaProjects/demo1/src/main/java/org/projecta/demo1/ReactiveMongoDatabaseFactory.java~",
+    "Projects/정부24 - 바로 가기.lnk",
+    "Projects/정부24/src/rankingIdolLogo.png",
+    "Projects/정부24/src/istockphoto-1367739711-612x612.jpg",
+    "Projects/정부24/src",
+    "Projects/정부24/style.css",
+    "Study/Blog/기록.md",
+    "Study/Blog/CSS.md",
+    "Study/Blog/무제 폴더/무제 파일.md",
+    "Projects/정부24/save.html",
+    "Projects/정부24/musicList.html",
+    "Projects/정부24/index.html",
+    "IdeaProjects/Ranking_Idol_Project/src/main/resources/templates/musicList.html~",
+    "IdeaProjects/demo1/build/resources/test",
+    "Projects/참고.html",
+    "Projects/정부24/프로젝트 개요",
+    "Projects/정부24",
     "IdeaProjects/demo1/HELP.md",
     "IdeaProjects/Ranking_Idol_Project/HELP.md",
-    "Study/Blog/기록.md",
-    "Study/Blog/기록.md",
     "Study/Java.md",
     "Study/CS_computer science/Computer Science_study test collection.md",
     "Study/CS_computer science/CU (Control Unit).md",
@@ -222,12 +225,9 @@
     "Study/웹 사이트 코드 배포.md",
     "SQL/과제/엑셀보다_쉽고_빠른_SQL_2주차_백원하.PNG",
     "Attached file/Pasted image 20240325151819.png",
-    "ALU^45ea71.md",
     "Attached file/image.png",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled.png",
     "Study/CS_computer science/버텨라/[김태선 튜터] Computer Science 핵심쏙쏙 cf0503e8d4864c9ea5740aa8422b809a/1강 CPU 와 메모리 8e7277a5ed4a41e9ab2cbcdf4b392968/Untitled 1.png",
-    "HTML import/Attachments/자료구조와-알고리즘.png",
-    "HTML import/Attachments/스크린샷, 2020-12-15 14-57-07.png",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
