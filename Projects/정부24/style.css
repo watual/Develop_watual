@@ -8,6 +8,7 @@
     background-color: rgb(51, 23, 78);
     padding-left: 2%;
     padding-right: 2%;
+
 }
 
 .nav_bar_left {
@@ -20,4 +21,11 @@
 }
 .cus-nav-bar:hover {
     color: pink;
+}
+/* div class="nav_bar_top" > 
+    nav class="navbar navbar-expand-lg bg-body-tertiary" > 
+        div class="container-fluid" > 
+            a class="navbar-brand cus-nav-logo" */
+.logo { 
+    width: 100px;
 }
