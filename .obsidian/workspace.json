@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Blog/CSS.md",
+                "file": "Study/Blog/기록.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Blog/CSS.md",
+                "file": "Study/Blog/기록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Blog/CSS.md",
+                "file": "Study/Blog/기록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Blog/CSS.md"
+                "file": "Study/Blog/기록.md"
               }
             }
           }
@@ -182,6 +182,9 @@
   },
   "active": "0d9b05f18c20da7e",
   "lastOpenFiles": [
+    "Study/Blog/오류 해결.md",
+    "Study/Blog/CSS.md",
+    "Projects/정부24/참고자료/메인화면 참고 3.PNG",
     "Projects/정부24/참고자료/메인화면 참고2.PNG",
     "Projects/정부24/참고자료/메인화면_참고.PNG",
     "Projects/정부24/참고자료",
@@ -193,14 +196,11 @@
     "Projects/정부24/src/logo_test1_ori.png",
     "Projects/정부24/src/logo_test1.png",
     "Projects/정부24/src/logo-.png",
-    "Projects/정부24/src/logo-1-removebg-preview.png",
-    "Projects/정부24/src/logo-1.png",
     "Projects/정부24/참고.html",
     "Projects/정부24 - 바로 가기.lnk",
     "Projects/정부24/src",
     "Projects/정부24/style.css",
     "Study/Blog/기록.md",
-    "Study/Blog/CSS.md",
     "Study/Blog/무제 폴더/무제 파일.md",
     "Projects/정부24/save.html",
     "Projects/정부24/musicList.html",

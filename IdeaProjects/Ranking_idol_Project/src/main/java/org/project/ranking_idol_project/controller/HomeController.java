@@ -8,6 +8,6 @@ public class HomeController {
     // 기본페이지 요청 메서드
     @GetMapping("/")
     public String index() {
-        return "index"; // => templates 폴더의 index.html을 찾아감
+        return "MainPage"; // => templates 폴더의 index.html을 찾아감
     }
 }
